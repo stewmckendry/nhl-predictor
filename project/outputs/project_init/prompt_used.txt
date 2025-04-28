@@ -1,0 +1,2 @@
+Project: NHL Predictor
+Description: Proof of concept NHL playoff outcome predictor.
