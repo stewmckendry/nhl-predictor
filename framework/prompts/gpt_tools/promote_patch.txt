@@ -1,0 +1,115 @@
+🎯 POD MISSION: Finalize and Deliver Output Files
+
+You have completed your assigned task. Now, package your deliverables for Human Lead review and promotion to the main project repository.
+
+---
+
+🧾 What to do:
+
+1. **Call `get_task_details`**
+   - Pass your `task_id`.
+   - This will return the task metadata: summary, output files, prompt path.
+
+2. **Confirm Key Details with the Human Lead:**
+   - Confirm the `task_id`, `summary`, `output_files`, and `prompt_path`.
+   - Confirm the `output_folder` for outputs:
+     - Options: discovery_updates, development_updates, qa_updates, cutover_updates, wow_updates, misc (default if unsure).
+
+   Example:
+Task: 2.1_define_feature Summary: Define the user-facing and backend logic for feature XYZ. Output Files: docs/feature_xyz.md, prompts/feature_xyz_prompt.txt Output Folder: development_updates
+
+
+3. **Ensure the Prompt Used is Stored Correctly:**
+- Use `getGitHubFile` tool to check if the prompt is saved under:
+  `prompts/used/{pod_owner}/{task_id}_prompt.txt`
+- If missing:
+  - Warn the Human Lead
+  - Proceed to next steps
+
+4. **Create a Reasoning Trace:**
+- Create a file called `reasoning_trace.md` following the structured template below.
+- Your Reasoning Trace should include the following sections:
+
+  - **Thoughts**:  
+    - List the major reasoning steps you took to complete the task.  
+    - Use 1–3 short bullet points.  
+    - You may tag thoughts with `[recall_used]` if you reused past knowledge or `[novel_insight]` if you introduced a new idea.
+
+  - **Other Ideas Considered**:  
+    - List any alternative approaches or ideas you thought about but chose not to pursue.
+
+  - **Opportunities for Future Improvement**:  
+    - Suggest ways the task output, approach, or reasoning could be improved if repeated in the future.
+
+  - **Scoring Summary**:
+    - Thought Quality Score (1–5): How clear, deep, and structured was your reasoning?
+    - Recall Used (yes/no): Did you reuse project memory or past task knowledge?
+    - Novel Insight (yes/no): Did you generate any truly new or creative ideas?
+
+  - (Optional) **Summarized Insight**:
+    - Summarize the overall reasoning and key learnings from this task in 1–2 sentences.
+
+---
+
+## Reasoning Trace Template Example:
+
+```markdown
+# Reasoning Trace for 2.1a_refine_project_goals
+
+## Thoughts
+- Reviewed project goals and matched them to original client requests. [recall_used]
+- Proposed phased rollout approach to manage stakeholder uncertainty. [novel_insight]
+- Emphasized early executive sponsor engagement to de-risk approval cycles.
+
+## Other Ideas Considered
+- Delivering a full-scope rollout immediately.
+- Conducting a stakeholder mapping exercise first (deferred due to timeline).
+
+## Opportunities for Future Improvement
+- Explore stakeholder mapping as a precursor to rollout planning to enhance alignment.
+
+## Scoring Summary
+- Thought Quality Score: 4
+- Recall Used: Yes
+- Novel Insight: Yes
+
+(Optional)
+## Summarized Insight
+- The phased rollout approach balanced client risk concerns with faster delivery, reusing memory from past projects and introducing a novel risk mitigation step.
+
+
+5. **Create a Handoff Note:**
+- Create a `handoff_notes.md` capturing:
+  - Scope of work completed
+  - Assumptions made
+  - Known gaps or risks
+  - Recommendations for next Pod or Human Lead
+- Follow the template:
+  ```
+  # Handoff Notes for Task {task_id}
+  ## Scope of Work Completed
+  ...
+  ## Assumptions Made
+  ...
+  ## Known Gaps or Risks
+  ...
+  ## Recommendations for Next Pod
+  ...
+  ```
+
+6. **Call `promote_patch` Tool:**
+Pass the following fields:
+- `task_id`
+- `summary`
+- `output_files` (filename ➔ content dictionary)
+- `reasoning_trace`
+- `handoff_notes`
+- `prompt_path`
+- `output_folder`
+
+7. **Instruct Human Lead to Finalize:**
+- Save the resulting ZIP under: `chatgpt_repo/outputs/{output_folder}/`
+- Run locally: `bash scripts/generate_patch_from_output.sh`
+- Confirm that the patch updates memory.yaml, task.yaml, and saves your reasoning and handoff notes.
+
+Done! 🎉
