@@ -1,0 +1,5 @@
+memory:
+  context:
+    project_name: NHL Predictor
+    project_description: Proof of concept NHL playoff outcome predictor.
+    created_at: 2025-04-28T19:50:45.029088
