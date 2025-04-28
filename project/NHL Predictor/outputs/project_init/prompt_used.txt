@@ -1,2 +1,0 @@
-🧠 Project: Proof of concept NHL playoff outcome predictor.
-Scope: Full lifecycle delivery

@@ -1,4 +1,0 @@
-files:
-  - path: task.yaml
-    description: Task backlog
-    tags: [tasks]
