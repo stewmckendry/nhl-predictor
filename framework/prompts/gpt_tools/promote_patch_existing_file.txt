@@ -1,0 +1,36 @@
+---
+tool: promote_patch
+task_id: 1.1_capture_project_goals
+output_folders: ["docs"]
+use_case: existing_file
+input_file: docs/project_goals.md
+summary: Refined project goals and improved formatting
+---
+
+🎯 PROMOTE PATCH – EXISTING FILE
+
+You have finalized the updated version of the file: `docs/project_goals.md`.
+
+Please:
+1. Compare your updated version to the original version (fetched using `getGitHubFile`)
+2. Generate a unified diff in **standard Git format**, using valid syntax:
+   - Header lines:
+     - `--- a/docs/project_goals.md`
+     - `+++ b/docs/project_goals.md`
+   - Include a **valid hunk header** like: `@@ -1,5 +1,7 @@`
+   - Use `-` to show lines removed, `+` for lines added
+
+❗️ Avoid malformed lines:
+- ⚠️ Do NOT start lines with `+ -` or `+-`, which will cause patch corruption
+- ✅ Instead, write `+ - Item`, `+ * Item`, or quote/escape special lines
+
+✅ Before calling promote_patch:
+- Use the `validate_diff` tool to confirm syntax is correct
+- Then use the `validate_hunk_length` tool to confirm that each hunk's declared `+` line count matches the actual lines added
+
+Only proceed if both return valid ✅
+If either fails, review the error and regenerate the diff with corrected hunk headers
+
+3. Then call the `promote_patch` tool with:
+   - task_id, summary, output_folders, and diff content
+4. Provide the human with the resulting download URLs for the diff and metadata files
