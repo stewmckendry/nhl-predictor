@@ -7,3 +7,12 @@
     - Deliberately excluded advanced AI-specific practices since MVP doesn''t depend
     on LLMs yet.'
   timestamp: '2025-04-29T18:18:28.949037'
+- message: '- Updated architecture to explicitly host API layer on Railway Cloud,
+    matching ai-delivery-framework''s hosting.
+
+    - Clarified Railway serverless deployment in both architecture diagram and standards
+    folder structure.
+
+    - This keeps hosting simple, consistent, and allows leveraging known workflows
+    like environment configs and serverless scaling.'
+  timestamp: '2025-04-29T18:20:07.639259'
