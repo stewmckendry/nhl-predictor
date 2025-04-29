@@ -294,7 +294,7 @@ tasks:
     pod_owner: DevPod
     prompt: framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
     ready: true
-    status: completed
+    status: in_progress
     updated_at: '2025-04-29T19:16:47.281582'
   2.3_qa_review_feature:
     assigned_to: unassigned
