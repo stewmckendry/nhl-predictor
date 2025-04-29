@@ -44,3 +44,11 @@
     - Will double-check preview content before future submit calls to avoid missing
     outputs.'
   timestamp: '2025-04-29T22:04:27.137016'
+- message: '- Captured final live frontend and backend URLs in the deployment guide
+    for easy reference.
+
+    - This avoids friction for QA, demos, and future developers.
+
+    - In future, consider creating a dedicated runbook or .env summary file to centralize
+    deploy-specific config.'
+  timestamp: '2025-04-29T22:57:27.940308'
