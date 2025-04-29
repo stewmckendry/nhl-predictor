@@ -1,0 +1,9 @@
+- message: '- Focused the deployment guide on simplicity and Railway-first deployment
+    to match hosting decisions.
+
+    - Deliberately kept environment setup lightweight (no DBs, no auth) to keep MVP
+    flow frictionless.
+
+    - Structured the guide modularly to allow fast upgrades to production or external
+    APIs if needed later.'
+  timestamp: '2025-04-29T19:23:58.347479'
