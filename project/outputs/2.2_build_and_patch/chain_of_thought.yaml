@@ -6,3 +6,13 @@
     - Kept everything minimal and deterministic-compatible (with randomness as fallback),
     ensuring it''s extendable later.'
   timestamp: '2025-04-29T18:49:42.447848'
+- message: '- Carefully modularized the build: engine, bracket definition, API handler,
+    and frontend were all cleanly separated for easier future updates.
+
+    - Prioritized simple text/json inputs for MVP to eliminate the need for custom
+    bracket UI in the first version.
+
+    - Designed the API and Frontend to assume happy paths first (fully valid inputs),
+    optimizing for faster user feedback loops while leaving clear space for error
+    handling upgrades.'
+  timestamp: '2025-04-29T19:15:19.719555'
