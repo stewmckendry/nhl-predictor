@@ -1,1 +1,1 @@
-See updated Deployment Guide in Canvas.
+See updated Deployment Guide in Canvas, covering split deployment for frontend and backend.
