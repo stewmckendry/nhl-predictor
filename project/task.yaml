@@ -109,7 +109,7 @@ tasks:
     category: discovery
     pod_owner: DevPod
     status: backlog
-    prompt: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.txt
+    prompt: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
     inputs:
     - docs/project_goals.md
     outputs:
