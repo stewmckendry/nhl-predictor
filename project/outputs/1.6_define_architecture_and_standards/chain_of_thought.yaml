@@ -16,3 +16,12 @@
     - This keeps hosting simple, consistent, and allows leveraging known workflows
     like environment configs and serverless scaling.'
   timestamp: '2025-04-29T18:20:07.639259'
+- message: '- Added a static "Bracket Definition File" (YAML or JSON) to explicitly
+    define initial matchups and bracket rules.
+
+    - Updated the architecture and data flow to show the simulator engine consuming
+    this bracket config.
+
+    - This approach ensures flexibility for future seasons and simplifies simulation
+    logic for MVP.'
+  timestamp: '2025-04-29T18:23:24.931229'
