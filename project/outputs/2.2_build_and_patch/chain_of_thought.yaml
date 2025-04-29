@@ -24,3 +24,15 @@
     - Test validated end-to-end simulation flow from round_1 through Stanley Cup champion
     using minimal mock bracket.'
   timestamp: '2025-04-29T21:18:21.520739'
+- message: '- Added FastAPI server and updated Node.js proxy with env-based backend
+    URL.
+
+    - Updated requirements.txt and package.json for new dependencies (FastAPI, uvicorn,
+    dotenv).
+
+    - Extended deployment guide to clearly split frontend and backend deployment paths
+    on Railway.
+
+    - Focused on flexibility to support local dev and cloud deployment without hardcoding
+    anything.'
+  timestamp: '2025-04-29T21:56:28.911410'
