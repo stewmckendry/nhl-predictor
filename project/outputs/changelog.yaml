@@ -18,3 +18,7 @@
   - change: 'Final output for task 1.1_capture_project_goals: project/docs/project_goals.md'
     path: project/docs/project_goals.md
   timestamp: '2025-04-29T17:35:01.756713'
+- files:
+  - change: Mark task 1.2_define_user_and_delivery_flows as in_progress
+    path: project/task.yaml
+  timestamp: '2025-04-29T17:50:44.556789'
