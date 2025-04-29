@@ -10,3 +10,7 @@
   - change: 'Final output for task 2.4a_fix_bugs_from_qa: project/docs/bugs/qa_bug_missing_package_json.md'
     path: project/docs/bugs/qa_bug_missing_package_json.md
   timestamp: '2025-04-29T20:37:01.436653'
+- files:
+  - change: Mark task 2.1_design_feature_and_tech_spec as in_progress
+    path: project/task.yaml
+  timestamp: '2025-04-29T20:53:40.280104'
