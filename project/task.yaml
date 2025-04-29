@@ -111,9 +111,9 @@ tasks:
     status: in_progress
     prompt: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
     inputs:
-    - docs/project_goals.md
+    - project/docs/project_goals.md
     outputs:
-    - docs/project_goals.md
+    - project/docs/project_goals.md
     feedback_file: .logs/feedback/1.1_capture_project_goals.md
     ready: true
     done: false
