@@ -1,0 +1,37 @@
+round_1:
+  Eastern_1:
+    teams: ["Washington Capitals", "Montreal Canadians"]
+  Eastern_2:
+    teams: ["Toronto Maple Leafs", "Ottawa Senators"]
+  Eastern_3:
+    teams: ["Tampa Bay Lightning", "Florida Panthers"]
+  Eastern_4:
+    teams: ["Carolina Hurricanes", "New Jersey Devils"]
+  Western_1:
+    teams: ["Winnipeg Jets", "St Louis Blues"]
+  Western_2:
+    teams: ["Vegas Golden Knights", "Minnesota Wild"]
+  Western_3:
+    teams: ["Dallas Stars", "Colorado Avalanche"]
+  Western_4:
+    teams: ["Los Angeles Kings", "Edmonton Oilers"]
+
+round_2:
+  Eastern_SF_1:
+    source: ["Eastern_1", "Eastern_4"]
+  Eastern_SF_2:
+    source: ["Eastern_2", "Eastern_3"]
+  Western_SF_1:
+    source: ["Western_1", "Western_3"]
+  Western_SF_2:
+    source: ["Western_2", "Western_4"]
+
+round_3:
+  Eastern_Final:
+    source: ["Eastern_SF_1", "Eastern_SF_2"]
+  Western_Final:
+    source: ["Western_SF_1", "Western_SF_2"]
+
+round_4:
+  Stanley_Cup_Final:
+    source: ["Eastern_Final", "Western_Final"]
