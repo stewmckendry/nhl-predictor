@@ -108,7 +108,7 @@ tasks:
     phase: Phase 1 - Discovery
     category: discovery
     pod_owner: DevPod
-    status: backlog
+    status: in_progress
     prompt: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
     inputs:
     - docs/project_goals.md
