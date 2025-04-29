@@ -436,7 +436,7 @@ tasks:
     pod_owner: DevPod
     prompt: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
     ready: true
-    status: backlog
+    status: in_progress
     updated_at: '2025-04-26T23:06:52.864047'
   3.1_define_e2e_test_plan:
     assigned_to: unassigned
