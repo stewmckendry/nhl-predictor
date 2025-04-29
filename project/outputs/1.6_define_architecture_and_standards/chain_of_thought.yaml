@@ -1,0 +1,9 @@
+- message: '- Chose a simple 3-tier architecture (frontend > API > simulation engine)
+    to maximize speed and clarity for the MVP.
+
+    - Focused standards on file structure, lightweight logging, and basic test coverage
+    without overengineering.
+
+    - Deliberately excluded advanced AI-specific practices since MVP doesn''t depend
+    on LLMs yet.'
+  timestamp: '2025-04-29T18:18:28.949037'
