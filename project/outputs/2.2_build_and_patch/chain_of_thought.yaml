@@ -16,3 +16,11 @@
     optimizing for faster user feedback loops while leaving clear space for error
     handling upgrades.'
   timestamp: '2025-04-29T19:15:19.719555'
+- message: '- Refactored simulate_playoffs to support all 4 playoff rounds using source-based
+    team resolution.
+
+    - Preserved the round-by-round format for readability and debugging ease.
+
+    - Test validated end-to-end simulation flow from round_1 through Stanley Cup champion
+    using minimal mock bracket.'
+  timestamp: '2025-04-29T21:18:21.520739'
