@@ -38,3 +38,7 @@
   - change: 'Final output for task 1.2_define_user_and_delivery_flows: project/docs/personas/user_roles.md'
     path: project/docs/personas/user_roles.md
   timestamp: '2025-04-29T18:01:01.787756'
+- files:
+  - change: 'Final output for task 1.2_define_user_and_delivery_flows: project/docs/journeys/app_walkthrough.md'
+    path: project/docs/journeys/app_walkthrough.md
+  timestamp: '2025-04-29T18:01:04.877834'
