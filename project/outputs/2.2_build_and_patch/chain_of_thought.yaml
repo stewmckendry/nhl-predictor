@@ -52,3 +52,14 @@
     - In future, consider creating a dedicated runbook or .env summary file to centralize
     deploy-specific config.'
   timestamp: '2025-04-29T22:57:27.940308'
+- message: '- Detected issue with Railway not recognizing FastAPI project due to mixed
+    tech stack at same root.
+
+    - Recommended moving FastAPI server and requirements.txt into a dedicated `backend/`
+    folder under `project/`.
+
+    - Human Lead executed the move manually for speed and simplicity.
+
+    - This structure allows Railway to correctly identify Python backend and install
+    uvicorn + fastapi.'
+  timestamp: '2025-04-29T23:25:09.724302'
