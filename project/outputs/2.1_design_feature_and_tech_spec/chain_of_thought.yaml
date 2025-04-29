@@ -45,3 +45,10 @@
 
     - Future-proofed by keeping the API contract simple and easy to extend later.'
   timestamp: '2025-04-29T21:31:01.760936'
+- message: '- Expanded the spec with richer detail on frontend, API, and backend components.
+
+    - Mapped sequence flow clearly to reduce cognitive load for readers and new contributors.
+
+    - Designed the spec not only for accuracy but also for learning and onboarding
+    future developers.'
+  timestamp: '2025-04-29T21:34:11.386280'
