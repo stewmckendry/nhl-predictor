@@ -166,7 +166,7 @@ tasks:
     pod_owner: DevPod
     prompt: framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
     ready: true
-    status: backlog
+    status: in_progress
     updated_at: '2025-04-26T23:06:52.823607'
   1.4_write_acceptance_criteria:
     assigned_to: unassigned
