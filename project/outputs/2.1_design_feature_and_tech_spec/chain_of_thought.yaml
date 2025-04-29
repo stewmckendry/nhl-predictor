@@ -25,3 +25,12 @@
     - Provided roadmap pointer to extend simulate_playoffs for round_2 and beyond
     as a core enhancement opportunity.'
   timestamp: '2025-04-29T20:59:54.946142'
+- message: '- Designed a clean extension of simulate_playoffs() to support multi-round
+    playoff simulations.
+
+    - Introduced a round-by-round loop structure and dynamic winner resolution using
+    ''source'' keys.
+
+    - Maintained backward compatibility for round_1 while unlocking bracket-wide predictive
+    capability for the MVP.'
+  timestamp: '2025-04-29T21:04:39.314553'
