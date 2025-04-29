@@ -10,13 +10,23 @@ def predict_series_winner(team_a, team_b, wins_a=None, wins_b=None):
 
 def simulate_playoffs(series_results, bracket_definition):
     results = {}
-    current_round = "round_1"
-    results[current_round] = {}
 
-    for series_id, matchup in bracket_definition.get(current_round, {}).items():
-        a, b = matchup["teams"]
-        wins = series_results.get(series_id, {})
-        winner = predict_series_winner(a, b, wins.get(a), wins.get(b))
-        results[current_round][series_id] = {"winner": winner, "teams": (a, b)}
+    for round_name, series_list in bracket_definition.items():
+        results[round_name] = {}
+        for series_id, matchup in series_list.items():
+            if "teams" in matchup:
+                team_a, team_b = matchup["teams"]
+                wins = series_results.get(series_id, {})
+                winner = predict_series_winner(team_a, team_b, wins.get(team_a), wins.get(team_b))
+            elif "source" in matchup:
+                source_a, source_b = matchup["source"]
+                prior_round_idx = list(bracket_definition.keys()).index(round_name) - 1
+                prior_round_name = list(bracket_definition.keys())[prior_round_idx]
+                team_a = results[prior_round_name][source_a]["winner"]
+                team_b = results[prior_round_name][source_b]["winner"]
+                winner = predict_series_winner(team_a, team_b)
+            else:
+                raise ValueError(f"Invalid matchup format for {series_id}")
+            results[round_name][series_id] = {"winner": winner, "teams": (team_a, team_b)}
 
     return results
