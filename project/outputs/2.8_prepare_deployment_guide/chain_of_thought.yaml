@@ -16,3 +16,11 @@
     - Future-proofed by suggesting GitHub Repo linkage, allowing smoother CI/CD setup
     later if desired.'
   timestamp: '2025-04-29T19:29:13.982455'
+- message: '- Confirmed that requirements.txt and .gitignore will be generated as
+    standalone files during task closeout.
+
+    - Clarified final file paths under project/ folder for a fully functional repository
+    structure.
+
+    - Ensured deployment guide accommodates both CLI and GUI users for Railway deployment.'
+  timestamp: '2025-04-29T19:30:55.874349'
