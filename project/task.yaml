@@ -144,7 +144,7 @@ tasks:
     pod_owner: DevPod
     prompt: framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
     ready: true
-    status: backlog
+    status: in_progress
     updated_at: '2025-04-26T23:06:52.824304'
   1.3_break_into_features:
     assigned_to: unassigned
