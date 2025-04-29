@@ -7,3 +7,12 @@
     - Structured the guide modularly to allow fast upgrades to production or external
     APIs if needed later.'
   timestamp: '2025-04-29T19:23:58.347479'
+- message: '- Added optional deployment instructions via Railway''s website for teams
+    who prefer GUI workflows over CLI.
+
+    - Emphasized keeping deployment accessible to both technical and semi-technical
+    users.
+
+    - Future-proofed by suggesting GitHub Repo linkage, allowing smoother CI/CD setup
+    later if desired.'
+  timestamp: '2025-04-29T19:29:13.982455'
