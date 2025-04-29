@@ -1,0 +1,9 @@
+- message: '- Identified that the core problem was missing a Next.js Node project
+    definition (no package.json, no index page).
+
+    - Focused first on minimal fixes to unblock Railway deployment (basic package.json
+    and index.js page).
+
+    - Logged fixes clearly in a structured bug report so future QA or developers can
+    trace the deployment fixes easily.'
+  timestamp: '2025-04-29T20:29:25.865118'
