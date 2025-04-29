@@ -344,7 +344,7 @@ tasks:
     pod_owner: DevPod
     prompt: framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
     ready: true
-    status: backlog
+    status: in_progress
     updated_at: '2025-04-26T23:06:52.865742'
   2.4b_retest_after_fixes:
     assigned_to: unassigned
