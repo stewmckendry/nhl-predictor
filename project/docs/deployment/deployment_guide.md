@@ -1,6 +1,12 @@
-# 📦 Deployment Guide (Updated)
+# 📆 Deployment Guide (Updated)
 
 This guide covers the steps to deploy both the **frontend (Next.js)** and **backend (FastAPI)** for the NHL Playoff Simulator on Railway.
+
+---
+
+## 🌐 Live URLs
+- **Frontend:** https://nhl-predictor-production-cb76.up.railway.app
+- **FastAPI Backend:** https://nhl-predictor-production-0abc.up.railway.app
 
 ---
 
@@ -14,7 +20,7 @@ This guide covers the steps to deploy both the **frontend (Next.js)** and **back
 5. Set build command: `npm run build`
 6. Set start command: `npm start`
 7. Add environment variable:
-   - `FASTAPI_BASE_URL=https://your-fastapi-service.up.railway.app`
+   - `FASTAPI_BASE_URL=https://nhl-predictor-production-0abc.up.railway.app`
 8. Click "Deploy"
 
 ### Option B: Railway CLI
@@ -52,7 +58,7 @@ railway up
 
 - In frontend Railway project, set env variable:
   ```bash
-  FASTAPI_BASE_URL=https://your-fastapi-service.up.railway.app
+  FASTAPI_BASE_URL=https://nhl-predictor-production-0abc.up.railway.app
   ```
 
 - Locally, create `.env.local` inside `project/`:
