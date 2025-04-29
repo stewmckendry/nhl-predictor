@@ -52,3 +52,12 @@
     - Designed the spec not only for accuracy but also for learning and onboarding
     future developers.'
   timestamp: '2025-04-29T21:34:11.386280'
+- message: '- Detected output generation error where placeholder text was committed
+    instead of the full spec.
+
+    - Likely cause: Improper handling of Canvas output vs GitHub output at the complete_task
+    step.
+
+    - Mitigation: Always regenerate fresh final output from Canvas context before
+    committing, and validate content preview before completing task.'
+  timestamp: '2025-04-29T21:45:12.523424'
