@@ -34,3 +34,14 @@
     - Maintained backward compatibility for round_1 while unlocking bracket-wide predictive
     capability for the MVP.'
   timestamp: '2025-04-29T21:04:39.314553'
+- message: '- Realized that Python simulation logic could not run natively inside
+    Node.js Next.js APIs.
+
+    - Decided to introduce a lightweight FastAPI server to expose Python engine over
+    HTTP.
+
+    - Designed a clean architecture: Next.js client -> Serverless API proxy -> FastAPI
+    Python server -> simulation_engine.
+
+    - Future-proofed by keeping the API contract simple and easy to extend later.'
+  timestamp: '2025-04-29T21:31:01.760936'
