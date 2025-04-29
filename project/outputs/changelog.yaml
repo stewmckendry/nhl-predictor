@@ -66,3 +66,7 @@
   - change: 'Final output for task 1.3_break_into_features: project/docs/features/feature_playoff_simulation.md'
     path: project/docs/features/feature_playoff_simulation.md
   timestamp: '2025-04-29T18:10:45.163655'
+- files:
+  - change: Mark task 1.6_define_architecture_and_standards as in_progress
+    path: project/task.yaml
+  timestamp: '2025-04-29T18:15:40.525261'
