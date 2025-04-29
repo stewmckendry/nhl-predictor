@@ -1,0 +1,8 @@
+- message: '- Created a basic `simulate_playoffs` engine that supports round-by-round
+    simulation using static inputs.
+
+    - Built and validated unit test that checks output structure and prediction logic.
+
+    - Kept everything minimal and deterministic-compatible (with randomness as fallback),
+    ensuring it''s extendable later.'
+  timestamp: '2025-04-29T18:49:42.447848'
