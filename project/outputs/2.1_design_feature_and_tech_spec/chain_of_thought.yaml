@@ -7,3 +7,12 @@
     - Focused on unblocking development immediately without overcomplicating the early
     simulation logic.'
   timestamp: '2025-04-29T18:40:05.283727'
+- message: '- Clarified the engine logic by documenting simulate_playoffs and predict_series_winner
+    clearly in the spec.
+
+    - Emphasized deterministic logic fallback to randomness to match MVP speed-first
+    design.
+
+    - Listed potential enhancements to set clear roadmap paths for smarter simulation
+    later.'
+  timestamp: '2025-04-29T20:54:19.420723'
