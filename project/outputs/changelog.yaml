@@ -114,3 +114,7 @@
   - change: 'Final output for task 2.1_design_feature_and_tech_spec: project/docs/specs/spec_playoff_simulation.md'
     path: project/docs/specs/spec_playoff_simulation.md
   timestamp: '2025-04-29T18:41:23.592102'
+- files:
+  - change: Mark task 2.2_build_and_patch as in_progress
+    path: project/task.yaml
+  timestamp: '2025-04-29T18:44:40.110223'
