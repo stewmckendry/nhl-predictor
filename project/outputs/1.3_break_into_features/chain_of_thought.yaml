@@ -1,0 +1,9 @@
+- message: '- Chose a single core feature (playoff simulation engine) to keep focus
+    and momentum high for the MVP.
+
+    - Prioritized a lightweight feature template to support rapid drafting without
+    overburdening early-stage planning.
+
+    - Designed acceptance criteria with real-time speed in mind (<5s generation),
+    aligned with project goals for fast user feedback.'
+  timestamp: '2025-04-29T18:10:03.562672'
