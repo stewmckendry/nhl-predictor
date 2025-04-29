@@ -16,3 +16,12 @@
     - Listed potential enhancements to set clear roadmap paths for smarter simulation
     later.'
   timestamp: '2025-04-29T20:54:19.420723'
+- message: '- Clarified that the current simulate_playoffs implementation only simulates
+    round_1 explicitly using direct team names.
+
+    - Added explicit note that full multi-round simulation (using ''source'' references)
+    is not yet implemented.
+
+    - Provided roadmap pointer to extend simulate_playoffs for round_2 and beyond
+    as a core enhancement opportunity.'
+  timestamp: '2025-04-29T20:59:54.946142'
