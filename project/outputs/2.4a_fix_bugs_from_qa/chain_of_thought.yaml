@@ -7,3 +7,13 @@
     - Logged fixes clearly in a structured bug report so future QA or developers can
     trace the deployment fixes easily.'
   timestamp: '2025-04-29T20:29:25.865118'
+- message: '- Logged all deployment errors and applied fixes manually due to rapid
+    iteration and volume.
+
+    - Captured each issue and resolution in a structured markdown bug report.
+
+    - For future, recommend pre-deploy validation with Railway CLI and stricter environment
+    checks.
+
+    - Also suggest automated checks for common folder misplacement and port mismatches.'
+  timestamp: '2025-04-30T01:41:49.070399'
