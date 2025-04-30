@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+input {
+  border: 1px solid #ccc;
+}
+
+h1, h2, h3 {
+  color: #1e293b;
+}
+
+button {
+  cursor: pointer;
+}
