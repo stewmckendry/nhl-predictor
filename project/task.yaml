@@ -7,7 +7,7 @@ tasks:
     description: Edit metadata fields of an existing task
     done: false
     instance_of: task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
-    outputs:
+    template_outputs:
     - task.yaml
     phase: Cross-Phase
     pod_owner: DeliveryPod
@@ -27,7 +27,7 @@ tasks:
     inputs:
     - task.yaml
     instance_of: task_templates/Cross-Phase/0.2_activate_task/task.yaml
-    outputs:
+    template_outputs:
     - task.yaml
     - prompts/used/DeliveryPod/0.3_activate_task_prompt.txt
     phase: Cross Phase
@@ -46,7 +46,7 @@ tasks:
     feedback_file: .logs/feedback/0.3_clone_task.md
     inputs: []
     instance_of: task_templates/Cross-Phase/0.3_clone_task/task.yaml
-    outputs:
+    template_outputs:
     - task.yaml
     phase: Phase 0 - Cross-Phase
     pod_owner: DeliveryPod
@@ -62,7 +62,7 @@ tasks:
     description: Add a tool to create a brand new task from scratch
     done: false
     instance_of: task_templates/Cross-Phase/0.4_create_new_task/task.yaml
-    outputs:
+    template_outputs:
     - task.yaml
     phase: Cross-Phase
     pod_owner: DeliveryPod
@@ -78,7 +78,7 @@ tasks:
     description: Index project files to generate memory.yaml
     done: false
     instance_of: task_templates/Cross-Phase/0.5_index_memory/task.yaml
-    outputs:
+    template_outputs:
     - memory.yaml
     phase: Cross-Phase
     pod_owner: DevPod
@@ -94,7 +94,7 @@ tasks:
     description: Add new files into memory.yaml
     done: false
     instance_of: task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
-    outputs:
+    template_outputs:
     - memory.yaml
     phase: Cross-Phase
     pod_owner: DevPod
@@ -114,7 +114,7 @@ tasks:
     inputs:
     - project/docs/project_goals.md
     instance_of: task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
-    outputs:
+    template_outputs:
     - project/docs/project_goals.md
     phase: Phase 1 - Discovery
     pod_owner: DevPod
@@ -138,7 +138,7 @@ tasks:
     - docs/journeys/app_walkthrough.md
     - docs/workflows/delivery_flow.md
     instance_of: task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
-    outputs:
+    template_outputs:
     - docs/personas/user_roles.md
     - docs/journeys/app_walkthrough.md
     - docs/workflows/delivery_flow.md
@@ -162,7 +162,7 @@ tasks:
     - docs/personas/user_roles.md
     - docs/journeys/app_walkthrough.md
     instance_of: task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
-    outputs:
+    template_outputs:
     - docs/features/feature_*.md
     phase: Phase 1 - Discovery
     pod_owner: DevPod
@@ -184,7 +184,7 @@ tasks:
     inputs:
     - docs/features/feature_*.md
     instance_of: task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
-    outputs:
+    template_outputs:
     - docs/qa/acceptance_matrix.md
     - docs/features/feature_*.md
     phase: Phase 1 - Discovery
@@ -208,7 +208,7 @@ tasks:
     - docs/project_goals.md
     - docs/features/feature_*.md
     instance_of: task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
-    outputs:
+    template_outputs:
     - docs/research/spikes/spike_*.md
     phase: Phase 1 - Discovery
     pod_owner: ResearchPod
@@ -229,7 +229,7 @@ tasks:
     - docs/features/feature_*.md
     - docs/research/spikes/spike_*.md
     instance_of: task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
-    outputs:
+    template_outputs:
     - docs/architecture/solution_overview.md
     - docs/architecture/standards.md
     phase: Phase 1 - Discovery
@@ -251,7 +251,7 @@ tasks:
     inputs:
     - .logs/feedback/*.md
     instance_of: task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
-    outputs:
+    template_outputs:
     - .logs/feedback/1.7_feedback_summary.md
     phase: Phase 1 - Discovery
     pod_owner: Human
@@ -270,7 +270,7 @@ tasks:
     inputs:
     - docs/features/feature_list.md
     instance_of: task_templates/Phase2_development/2.1_design_feature/task.yaml
-    outputs:
+    template_outputs:
     - docs/specs/spec_<feature_id>.md
     phase: Phase 2 - Development
     pod_owner: DevPod
@@ -295,7 +295,7 @@ tasks:
     - standards.md
     - solution_overview.md
     instance_of: task_templates/Phase2_development/2.2_build_feature/task.yaml
-    outputs:
+    template_outputs:
     - src/feature_<feature_id>/**/*
     - tests/feature_<feature_id>/**/*
     - docs/specs/spec_<feature_id>.md
@@ -323,7 +323,7 @@ tasks:
     - tests/feature_<feature_id>/**/*
     - docs/qa/acceptance_matrix.md
     instance_of: task_templates/Phase2_development/2.3_QA_feature/task.yaml
-    outputs:
+    template_outputs:
     - test/feature_<feature_id>/qa_test_plan.md
     - test/feature_<feature_id>/qa_test_cases.md
     - test/feature_<feature_id>/qa_test_results.md
@@ -349,7 +349,7 @@ tasks:
     - test/feature_<feature_id>/qa_test_results.md
     - docs/specs/spec_<feature_id>.md
     instance_of: task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
-    outputs:
+    template_outputs:
     - src/feature_<feature_id>/**/*
     - tests/feature_<feature_id>/**/*
     - docs/specs/spec_<feature_id>.md
@@ -377,7 +377,7 @@ tasks:
     - tests/feature_<feature_id>/**/*
     - docs/qa/acceptance_matrix.md
     instance_of: task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
-    outputs:
+    template_outputs:
     - test/feature_<feature_id>/qa_test_results.md
     - docs/qa/acceptance_matrix.md
     depends_on: ["2.4a_fix_bugs_from_qa"]
@@ -402,7 +402,7 @@ tasks:
     - docs/specs/spec_<feature_id>.md
     - docs/qa/acceptance_matrix.md
     instance_of: task_templates/Phase2_development/2.5_research_support/task.yaml
-    outputs:
+    template_outputs:
     - docs/research/spikes/<topic>.md
     phase: Phase 2 - Development
     pod_owner: ResearchPod
@@ -424,7 +424,7 @@ tasks:
     - .logs/feedback/2.*.md
     - metrics/metrics.yaml
     instance_of: task_templates/Phase2_development/2.6_run_agile/task.yaml
-    outputs:
+    template_outputs:
     - docs/rituals/retrospective.md
     - metrics/velocity.md
     - metrics/burndown.md
@@ -448,7 +448,7 @@ tasks:
     - docs/specs/spec_<feature_id>.md
     - .patches/patch_<timestamp>.diff
     instance_of: task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
-    outputs:
+    template_outputs:
     - docs/deployment/deployment_guide.md
     phase: Phase 2 - Development
     pod_owner: DevPod
@@ -470,7 +470,7 @@ tasks:
     - docs/qa/acceptance_matrix.md
     - docs/specs/spec_*.md
     instance_of: task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
-    outputs:
+    template_outputs:
     - test/e2e/e2e_test_plan.md
     depends_on: ["1.4_write_acceptance_criteria"]
     handoff_from: "1.4_write_acceptance_criteria"
@@ -492,7 +492,7 @@ tasks:
     inputs:
     - test/e2e/e2e_test_plan.md
     instance_of: task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
-    outputs:
+    template_outputs:
     - test/e2e/e2e_test_results.md
     phase: Phase 3 - E2E Testing
     depends_on: ["3.1_define_e2e_test_plan"]
@@ -514,7 +514,7 @@ tasks:
     inputs:
     - test/e2e/e2e_test_results.md
     instance_of: task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
-    outputs:
+    template_outputs:
     - src/**/*
     - tests/**/*
     - docs/specs/spec_*.md
@@ -539,7 +539,7 @@ tasks:
     inputs:
     - test/e2e/e2e_test_results.md
     instance_of: task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
-    outputs:
+    template_outputs:
     - docs/reviews/e2e_review_notes.md
     phase: Phase 3 - E2E Testing
     pod_owner: WoWPod
@@ -560,7 +560,7 @@ tasks:
     - test/e2e/e2e_test_results.md
     - metrics/metrics.yaml
     instance_of: task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
-    outputs:
+    template_outputs:
     - metrics/final_quality_summary.md
     phase: Phase 3 - E2E Testing
     pod_owner: DeliveryPod
@@ -580,7 +580,7 @@ tasks:
     inputs:
     - docs/deployment/deployment_guide.md
     instance_of: task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
-    outputs:
+    template_outputs:
     - docs/release/cutover_checklist.md
     phase: Phase 4 - Go Live
     pod_owner: DeliveryPod
@@ -600,7 +600,7 @@ tasks:
     inputs:
     - test/e2e/e2e_test_plan.md
     instance_of: task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
-    outputs:
+    template_outputs:
     - test/smoke/smoke_test_results.md
     phase: Phase 4 - Go Live
     pod_owner: QAPod
@@ -620,7 +620,7 @@ tasks:
     inputs:
     - docs/release/cutover_checklist.md
     instance_of: task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
-    outputs:
+    template_outputs:
     - .logs/deployments/go_live_log.md
     phase: Phase 4 - Go Live
     pod_owner: DevPod
@@ -640,7 +640,7 @@ tasks:
     inputs:
     - .logs/deployments/go_live_log.md
     instance_of: task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
-    outputs:
+    template_outputs:
     - docs/release/release_announcement.md
     phase: Phase 4 - Go Live
     pod_owner: Human
@@ -660,7 +660,7 @@ tasks:
     inputs:
     - .logs/deployments/go_live_log.md
     instance_of: task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
-    outputs:
+    template_outputs:
     - docs/rituals/go_live_retro.md
     phase: Phase 4 - Go Live
     pod_owner: WoWPod
