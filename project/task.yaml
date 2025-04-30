@@ -131,6 +131,8 @@ tasks:
       (SDLC, pods)
     done: true
     feedback_file: .logs/feedback/1.2_define_user_and_delivery_flows.md
+    depends_on: ["1.1_capture_project_goals"]
+    handoff_from: "1.1_capture_project_goals"
     inputs:
     - docs/personas/user_roles.md
     - docs/journeys/app_walkthrough.md
@@ -165,6 +167,8 @@ tasks:
     phase: Phase 1 - Discovery
     pod_owner: DevPod
     prompt: framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
+    depends_on: ["1.2_define_user_and_delivery_flows"]
+    handoff_from: "1.2_define_user_and_delivery_flows"
     ready: true
     status: completed
     updated_at: '2025-04-29T18:10:38.749898'
@@ -186,6 +190,8 @@ tasks:
     phase: Phase 1 - Discovery
     pod_owner: QAPod
     prompt: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
+    depends_on: ["1.3_break_into_features"]
+    handoff_from: "1.3_break_into_features"
     ready: true
     status: backlog
     updated_at: '2025-04-26T23:06:52.822205'
@@ -229,6 +235,8 @@ tasks:
     phase: Phase 1 - Discovery
     pod_owner: DevPod
     prompt: framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
+    depends_on: ["1.2_define_user_and_delivery_flows", "1.3_break_into_features"]
+    handoff_from: "1.3_break_into_features"
     ready: true
     status: in_progress
     updated_at: '2025-04-30T10:51:03.337192'
@@ -267,6 +275,8 @@ tasks:
     phase: Phase 2 - Development
     pod_owner: DevPod
     prompt: framework/task_templates/Phase1_development/2.1_design_feature/prompt_template.md
+    depends_on: ["1.3_break_into_features", "1.6_define_architecture_and_standards"]
+    handoff_from: "1.6_define_architecture_and_standards"
     ready: true
     status: completed
     updated_at: '2025-04-29T21:38:24.406100'
@@ -290,6 +300,8 @@ tasks:
     - tests/feature_<feature_id>/**/*
     - docs/specs/spec_<feature_id>.md
     - .patches/patch_<timestamp>.diff
+    depends_on: ["2.1_design_feature_and_tech_spec"]
+    handoff_from: "2.1_design_feature_and_tech_spec"
     phase: Phase 2 - Development
     pod_owner: DevPod
     prompt: framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
@@ -316,6 +328,8 @@ tasks:
     - test/feature_<feature_id>/qa_test_cases.md
     - test/feature_<feature_id>/qa_test_results.md
     - docs/qa/acceptance_matrix.md
+    depends_on: ["2.2_build_and_patch", "1.4_write_acceptance_criteria"]
+    handoff_from: "2.2_build_and_patch"
     phase: Phase 2 - Development
     pod_owner: QAPod
     prompt: framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
@@ -341,6 +355,8 @@ tasks:
     - docs/specs/spec_<feature_id>.md
     - .patches/patch_<timestamp>.diff
     phase: Phase 2 - Development
+    depends_on: ["2.3_QA_feature"]
+    handoff_from: "2.3_QA_feature"
     pod_owner: DevPod
     prompt: framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
     ready: true
@@ -364,6 +380,8 @@ tasks:
     outputs:
     - test/feature_<feature_id>/qa_test_results.md
     - docs/qa/acceptance_matrix.md
+    depends_on: ["2.4a_fix_bugs_from_qa"]
+    handoff_from: "2.4a_fix_bugs_from_qa"
     phase: Phase 2 - Development
     pod_owner: QAPod
     prompt: framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
@@ -454,6 +472,8 @@ tasks:
     instance_of: task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
     outputs:
     - test/e2e/e2e_test_plan.md
+    depends_on: ["1.4_write_acceptance_criteria"]
+    handoff_from: "1.4_write_acceptance_criteria"
     phase: Phase 3 - E2E Testing
     pod_owner: QAPod
     prompt: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
@@ -475,6 +495,8 @@ tasks:
     outputs:
     - test/e2e/e2e_test_results.md
     phase: Phase 3 - E2E Testing
+    depends_on: ["3.1_define_e2e_test_plan"]
+    handoff_from: "3.1_define_e2e_test_plan"
     pod_owner: QAPod
     prompt: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
     ready: true
@@ -498,6 +520,8 @@ tasks:
     - docs/specs/spec_*.md
     - .patches/patch_<timestamp>.diff
     phase: Phase 3 - E2E Testing
+    depends_on: ["3.2_e2e_test_execution"]
+    handoff_from: "3.2_e2e_test_execution"
     pod_owner: DevPod
     prompt: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
     ready: true
