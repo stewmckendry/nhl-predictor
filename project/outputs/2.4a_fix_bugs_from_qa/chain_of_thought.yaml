@@ -28,3 +28,14 @@
     - Future projects should include heuristic-driven design checklists earlier in
     UX planning.'
   timestamp: '2025-04-30T02:05:52.042862'
+- message: '- Focused UX upgrades made the app dramatically easier and more delightful
+    to use.
+
+    - MVP changes prioritized guided flow (instructions, inputs), validation (max
+    4 wins), and payoff (celebration for winner).
+
+    - Additional polish like loading states and hiding the form after simulation improves
+    clarity and flow.
+
+    - Future: Include a UX heuristic checklist in spec phase to build in quality earlier.'
+  timestamp: '2025-04-30T02:24:34.602801'
