@@ -17,3 +17,14 @@
 
     - Also suggest automated checks for common folder misplacement and port mismatches.'
   timestamp: '2025-04-30T01:41:49.070399'
+- message: '- Frontend lacked clarity and polish; raw JSON output was confusing.
+
+    - Used usability heuristics (NNGroup) to drive redesign.
+
+    - Added title, instructions, clearer labels, and a visual bracket display.
+
+    - Fixes elevate user experience and help align product design with user expectations.
+
+    - Future projects should include heuristic-driven design checklists earlier in
+    UX planning.'
+  timestamp: '2025-04-30T02:05:52.042862'
