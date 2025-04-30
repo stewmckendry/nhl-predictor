@@ -63,3 +63,12 @@
     - This structure allows Railway to correctly identify Python backend and install
     uvicorn + fastapi.'
   timestamp: '2025-04-29T23:25:09.724302'
+- message: '- FastAPI failed on deploy due to inability to import simulator module
+    after moving backend to subfolder.
+
+    - Root cause: `simulator/` is one level above the FastAPI root.
+
+    - Manually fixed by Human Lead by appending parent path to `sys.path` in `fastapi_server.py`.
+
+    - This restored Python''s ability to resolve imports without altering repo layout.'
+  timestamp: '2025-04-30T00:05:06.706470'
