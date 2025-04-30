@@ -257,3 +257,9 @@
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/summary_chain_of_thoughts.md
   tags: []
+- description: Guide for deploying to Railway
+  path: project/docs/deployment_guide.md
+  pod_owner: DevPod
+  tags:
+  - deployment
+  - guide
