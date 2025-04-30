@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open("simulator/playoff_bracket.yaml", "r") as f:
+with open("bracket/playoff_bracket.yaml", "r") as f:
     bracket_definition = yaml.safe_load(f)
 
 @app.post("/simulate")
