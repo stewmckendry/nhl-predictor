@@ -1,51 +1,56 @@
-import { useState } from "react";
+import { useState } from 'react';
+import BracketDisplay from './BracketDisplay';
 
 export default function SimulatePage() {
-  const [formData, setFormData] = useState({});
-  const [result, setResult] = useState(null);
+  const [seriesResults, setSeriesResults] = useState({});
+  const [simulatedBracket, setSimulatedBracket] = useState(null);
 
-  const handleChange = (series, team, value) => {
-    setFormData(prev => ({
+  const handleInputChange = (seriesId, team, value) => {
+    setSeriesResults(prev => ({
       ...prev,
-      [series]: {
-        ...prev[series],
-        [team]: Number(value)
+      [seriesId]: {
+        ...prev[seriesId],
+        [team]: parseInt(value)
       }
     }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const response = await fetch("/api/simulate", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ series_results: formData })
+  const handleSubmit = async () => {
+    const response = await fetch('/api/simulate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ series_results: seriesResults })
     });
     const data = await response.json();
-    setResult(data);
+    setSimulatedBracket(data.simulated_bracket);
   };
 
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">NHL Playoff Simulator</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
+    <div className="max-w-4xl mx-auto p-6">
+      <h1 className="text-3xl font-bold mb-4">🏒 NHL Playoff Simulator</h1>
+      <p className="mb-6 text-lg">Enter current wins for each team in Round 1 to simulate the entire playoffs!</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {[
-          "Eastern_1", "Eastern_2", "Eastern_3", "Eastern_4",
-          "Western_1", "Western_2", "Western_3", "Western_4"
-        ].map(series => (
-          <div key={series} className="space-x-2">
-            <input type="text" placeholder={`${series} Team A Wins`} onChange={e => handleChange(series, "team_a", e.target.value)} className="border p-1" />
-            <input type="text" placeholder={`${series} Team B Wins`} onChange={e => handleChange(series, "team_b", e.target.value)} className="border p-1" />
+          { id: 'Eastern_1', a: 'Washington Capitals', b: 'Montreal Canadians' },
+          { id: 'Eastern_2', a: 'Toronto Maple Leafs', b: 'Ottawa Senators' },
+          { id: 'Eastern_3', a: 'Tampa Bay Lightning', b: 'Florida Panthers' },
+        ].map(({ id, a, b }) => (
+          <div key={id} className="bg-white shadow p-4 rounded">
+            <h2 className="text-xl font-semibold mb-2">{a} vs {b}</h2>
+            <label>{a} Wins:
+              <input type="number" className="ml-2 border px-2 py-1 rounded" onChange={(e) => handleInputChange(id, a, e.target.value)} /></label><br/>
+            <label>{b} Wins:
+              <input type="number" className="ml-2 border px-2 py-1 rounded" onChange={(e) => handleInputChange(id, b, e.target.value)} /></label>
           </div>
         ))}
-        <button type="submit" className="bg-blue-500 text-white px-4 py-2">Simulate</button>
-      </form>
+      </div>
 
-      {result && (
-        <pre className="mt-6 p-4 bg-gray-100 rounded overflow-x-auto">
-          {JSON.stringify(result.simulated_bracket, null, 2)}
-        </pre>
-      )}
+      <button className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700" onClick={handleSubmit}>
+        Simulate
+      </button>
+
+      {simulatedBracket && <BracketDisplay bracket={simulatedBracket} />}
     </div>
   );
 }
