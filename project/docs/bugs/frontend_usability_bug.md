@@ -1,0 +1,1 @@
+See updated bug report for usability fixes in Canvas textdoc.
