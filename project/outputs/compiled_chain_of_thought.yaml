@@ -1,0 +1,265 @@
+1.3_break_into_features:
+- message: '- Chose a single core feature (playoff simulation engine) to keep focus
+    and momentum high for the MVP.
+
+    - Prioritized a lightweight feature template to support rapid drafting without
+    overburdening early-stage planning.
+
+    - Designed acceptance criteria with real-time speed in mind (<5s generation),
+    aligned with project goals for fast user feedback.'
+  timestamp: '2025-04-29T18:10:03.562672'
+1.2_define_user_and_delivery_flows:
+- message: '- Focused on keeping user journeys extremely short (under 5 steps) to
+    prioritize excitement and fast payoff.
+
+    - Designed delivery flow assuming a single pod (DevPod) owns the full MVP cycle,
+    reinforcing speed and modularity.
+
+    - Drafted user role assuming casual fans with medium tech savvy, not hardcore
+    analysts, to match the ''lightweight'' app vision.'
+  timestamp: '2025-04-29T17:58:44.682447'
+2.1_design_feature_and_tech_spec:
+- message: '- Added a lightweight `predict_series_winner` function using random choice
+    for MVP simplicity.
+
+    - Acknowledged future potential enhancements (seeding, historical data) to keep
+    roadmap extensible.
+
+    - Focused on unblocking development immediately without overcomplicating the early
+    simulation logic.'
+  timestamp: '2025-04-29T18:40:05.283727'
+- message: '- Clarified the engine logic by documenting simulate_playoffs and predict_series_winner
+    clearly in the spec.
+
+    - Emphasized deterministic logic fallback to randomness to match MVP speed-first
+    design.
+
+    - Listed potential enhancements to set clear roadmap paths for smarter simulation
+    later.'
+  timestamp: '2025-04-29T20:54:19.420723'
+- message: '- Clarified that the current simulate_playoffs implementation only simulates
+    round_1 explicitly using direct team names.
+
+    - Added explicit note that full multi-round simulation (using ''source'' references)
+    is not yet implemented.
+
+    - Provided roadmap pointer to extend simulate_playoffs for round_2 and beyond
+    as a core enhancement opportunity.'
+  timestamp: '2025-04-29T20:59:54.946142'
+- message: '- Designed a clean extension of simulate_playoffs() to support multi-round
+    playoff simulations.
+
+    - Introduced a round-by-round loop structure and dynamic winner resolution using
+    ''source'' keys.
+
+    - Maintained backward compatibility for round_1 while unlocking bracket-wide predictive
+    capability for the MVP.'
+  timestamp: '2025-04-29T21:04:39.314553'
+- message: '- Realized that Python simulation logic could not run natively inside
+    Node.js Next.js APIs.
+
+    - Decided to introduce a lightweight FastAPI server to expose Python engine over
+    HTTP.
+
+    - Designed a clean architecture: Next.js client -> Serverless API proxy -> FastAPI
+    Python server -> simulation_engine.
+
+    - Future-proofed by keeping the API contract simple and easy to extend later.'
+  timestamp: '2025-04-29T21:31:01.760936'
+- message: '- Expanded the spec with richer detail on frontend, API, and backend components.
+
+    - Mapped sequence flow clearly to reduce cognitive load for readers and new contributors.
+
+    - Designed the spec not only for accuracy but also for learning and onboarding
+    future developers.'
+  timestamp: '2025-04-29T21:34:11.386280'
+- message: '- Detected output generation error where placeholder text was committed
+    instead of the full spec.
+
+    - Likely cause: Improper handling of Canvas output vs GitHub output at the complete_task
+    step.
+
+    - Mitigation: Always regenerate fresh final output from Canvas context before
+    committing, and validate content preview before completing task.'
+  timestamp: '2025-04-29T21:45:12.523424'
+1.6_define_architecture_and_standards:
+- message: '- Chose a simple 3-tier architecture (frontend > API > simulation engine)
+    to maximize speed and clarity for the MVP.
+
+    - Focused standards on file structure, lightweight logging, and basic test coverage
+    without overengineering.
+
+    - Deliberately excluded advanced AI-specific practices since MVP doesn''t depend
+    on LLMs yet.'
+  timestamp: '2025-04-29T18:18:28.949037'
+- message: '- Updated architecture to explicitly host API layer on Railway Cloud,
+    matching ai-delivery-framework''s hosting.
+
+    - Clarified Railway serverless deployment in both architecture diagram and standards
+    folder structure.
+
+    - This keeps hosting simple, consistent, and allows leveraging known workflows
+    like environment configs and serverless scaling.'
+  timestamp: '2025-04-29T18:20:07.639259'
+- message: '- Added a static "Bracket Definition File" (YAML or JSON) to explicitly
+    define initial matchups and bracket rules.
+
+    - Updated the architecture and data flow to show the simulator engine consuming
+    this bracket config.
+
+    - This approach ensures flexibility for future seasons and simplifies simulation
+    logic for MVP.'
+  timestamp: '2025-04-29T18:23:24.931229'
+2.2_build_and_patch:
+- message: '- Created a basic `simulate_playoffs` engine that supports round-by-round
+    simulation using static inputs.
+
+    - Built and validated unit test that checks output structure and prediction logic.
+
+    - Kept everything minimal and deterministic-compatible (with randomness as fallback),
+    ensuring it''s extendable later.'
+  timestamp: '2025-04-29T18:49:42.447848'
+- message: '- Carefully modularized the build: engine, bracket definition, API handler,
+    and frontend were all cleanly separated for easier future updates.
+
+    - Prioritized simple text/json inputs for MVP to eliminate the need for custom
+    bracket UI in the first version.
+
+    - Designed the API and Frontend to assume happy paths first (fully valid inputs),
+    optimizing for faster user feedback loops while leaving clear space for error
+    handling upgrades.'
+  timestamp: '2025-04-29T19:15:19.719555'
+- message: '- Refactored simulate_playoffs to support all 4 playoff rounds using source-based
+    team resolution.
+
+    - Preserved the round-by-round format for readability and debugging ease.
+
+    - Test validated end-to-end simulation flow from round_1 through Stanley Cup champion
+    using minimal mock bracket.'
+  timestamp: '2025-04-29T21:18:21.520739'
+- message: '- Added FastAPI server and updated Node.js proxy with env-based backend
+    URL.
+
+    - Updated requirements.txt and package.json for new dependencies (FastAPI, uvicorn,
+    dotenv).
+
+    - Extended deployment guide to clearly split frontend and backend deployment paths
+    on Railway.
+
+    - Focused on flexibility to support local dev and cloud deployment without hardcoding
+    anything.'
+  timestamp: '2025-04-29T21:56:28.911410'
+- message: '- Caught that a placeholder message was incorrectly committed for deployment
+    guide.
+
+    - Regenerated full deployment instructions and re-submitted using complete_task.
+
+    - Will double-check preview content before future submit calls to avoid missing
+    outputs.'
+  timestamp: '2025-04-29T22:04:27.137016'
+- message: '- Captured final live frontend and backend URLs in the deployment guide
+    for easy reference.
+
+    - This avoids friction for QA, demos, and future developers.
+
+    - In future, consider creating a dedicated runbook or .env summary file to centralize
+    deploy-specific config.'
+  timestamp: '2025-04-29T22:57:27.940308'
+- message: '- Detected issue with Railway not recognizing FastAPI project due to mixed
+    tech stack at same root.
+
+    - Recommended moving FastAPI server and requirements.txt into a dedicated `backend/`
+    folder under `project/`.
+
+    - Human Lead executed the move manually for speed and simplicity.
+
+    - This structure allows Railway to correctly identify Python backend and install
+    uvicorn + fastapi.'
+  timestamp: '2025-04-29T23:25:09.724302'
+- message: '- FastAPI failed on deploy due to inability to import simulator module
+    after moving backend to subfolder.
+
+    - Root cause: `simulator/` is one level above the FastAPI root.
+
+    - Manually fixed by Human Lead by appending parent path to `sys.path` in `fastapi_server.py`.
+
+    - This restored Python''s ability to resolve imports without altering repo layout.'
+  timestamp: '2025-04-30T00:05:06.706470'
+2.4a_fix_bugs_from_qa:
+- message: '- Identified that the core problem was missing a Next.js Node project
+    definition (no package.json, no index page).
+
+    - Focused first on minimal fixes to unblock Railway deployment (basic package.json
+    and index.js page).
+
+    - Logged fixes clearly in a structured bug report so future QA or developers can
+    trace the deployment fixes easily.'
+  timestamp: '2025-04-29T20:29:25.865118'
+- message: '- Logged all deployment errors and applied fixes manually due to rapid
+    iteration and volume.
+
+    - Captured each issue and resolution in a structured markdown bug report.
+
+    - For future, recommend pre-deploy validation with Railway CLI and stricter environment
+    checks.
+
+    - Also suggest automated checks for common folder misplacement and port mismatches.'
+  timestamp: '2025-04-30T01:41:49.070399'
+- message: '- Frontend lacked clarity and polish; raw JSON output was confusing.
+
+    - Used usability heuristics (NNGroup) to drive redesign.
+
+    - Added title, instructions, clearer labels, and a visual bracket display.
+
+    - Fixes elevate user experience and help align product design with user expectations.
+
+    - Future projects should include heuristic-driven design checklists earlier in
+    UX planning.'
+  timestamp: '2025-04-30T02:05:52.042862'
+- message: '- Focused UX upgrades made the app dramatically easier and more delightful
+    to use.
+
+    - MVP changes prioritized guided flow (instructions, inputs), validation (max
+    4 wins), and payoff (celebration for winner).
+
+    - Additional polish like loading states and hiding the form after simulation improves
+    clarity and flow.
+
+    - Future: Include a UX heuristic checklist in spec phase to build in quality earlier.'
+  timestamp: '2025-04-30T02:24:34.602801'
+2.8_prepare_deployment_guide:
+- message: '- Focused the deployment guide on simplicity and Railway-first deployment
+    to match hosting decisions.
+
+    - Deliberately kept environment setup lightweight (no DBs, no auth) to keep MVP
+    flow frictionless.
+
+    - Structured the guide modularly to allow fast upgrades to production or external
+    APIs if needed later.'
+  timestamp: '2025-04-29T19:23:58.347479'
+- message: '- Added optional deployment instructions via Railway''s website for teams
+    who prefer GUI workflows over CLI.
+
+    - Emphasized keeping deployment accessible to both technical and semi-technical
+    users.
+
+    - Future-proofed by suggesting GitHub Repo linkage, allowing smoother CI/CD setup
+    later if desired.'
+  timestamp: '2025-04-29T19:29:13.982455'
+- message: '- Confirmed that requirements.txt and .gitignore will be generated as
+    standalone files during task closeout.
+
+    - Clarified final file paths under project/ folder for a fully functional repository
+    structure.
+
+    - Ensured deployment guide accommodates both CLI and GUI users for Railway deployment.'
+  timestamp: '2025-04-29T19:30:55.874349'
+1.1_capture_project_goals:
+- message: '- Prioritized simplicity and speed to match the real-time nature of the
+    ongoing NHL playoffs.
+
+    - Emphasized modularity to align with AI-native delivery and future feature extensions.
+
+    - Highlighted user fun and fast feedback as more important than prediction perfection
+    for MVP validation.'
+  timestamp: '2025-04-29T17:31:26.884287'
