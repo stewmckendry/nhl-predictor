@@ -1,7 +1,10 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if root_path not in sys.path:
+    sys.path.insert(0, root_path)
+    
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from simulator.simulation_engine import simulate_playoffs
