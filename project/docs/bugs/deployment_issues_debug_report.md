@@ -1,0 +1,1 @@
+See full debug report for FastAPI and Next.js deployment integration in textdoc.
