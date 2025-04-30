@@ -4,7 +4,7 @@ import os
 root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if root_path not in sys.path:
     sys.path.insert(0, root_path)
-    
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from simulator.simulation_engine import simulate_playoffs
@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-with open("project/bracket/playoff_bracket.yaml", "r") as f:
+with open("simulator/playoff_bracket.yaml", "r") as f:
     bracket_definition = yaml.safe_load(f)
 
 @app.post("/simulate")
