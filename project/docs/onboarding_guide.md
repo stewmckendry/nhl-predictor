@@ -24,11 +24,65 @@ This system enables AI-assisted, task-based software delivery using:
 | `project/memory.yaml` | Tracks meaningful files + metadata |
 | `project/outputs/<task_id>/` | Logs for each task (chain of thought, outputs, reasoning) |
 | `project/.logs/` | Changelogs and rollback logs |
-| `project/docs/` | System and onboarding documentation |
+| `project/docs/` | Project documentation (like this guide!) |
 
 ---
 
-## 🔄 3. Task Lifecycle
+## 👥 Meet the AI Pods
+
+This system is structured around modular, role-based AI Pods that mirror real-world delivery teams:
+
+| **Pod** | **Mission** | **Core Capabilities** |
+|---------|-------------|------------------------|
+| **ProductPod** | Design, build, and evolve features and systems | Requirements, solutioning, building, patching |
+| **QAPod** | Ensure quality and readiness across outputs | Test planning, validation, issue detection, acceptance checking |
+| **ResearchPod** | Explore external knowledge to guide solutions | Research, summarize insights, recommend options |
+| **WoWPod** | Define and improve how Pods and system work | Process design, standards, retrospectives, rituals |
+| **DeliveryPod** | Manage task flow, metrics, retrospectives | Task tracking, metrics generation, reporting |
+| **WriterPod** | Communicate work internally and externally | Documentation, blogs, changelogs, release notes |
+| **PromptPod** | Design and optimize prompts for GPTs | Draft, refine, and enhance prompts for better task execution |
+
+---
+
+## 🧱 What Types of Tasks Do We Have?
+
+Tasks are structured around an app delivery lifecycle, but the framework can be adapted to any AI-native delivery use case.
+
+### Phase 1: Discovery
+- `1.1_capture_project_goals`
+- `1.2_define_user_and_delivery_flows`
+- `1.3_break_into_features`
+- `1.4_write_acceptance_criteria`
+- `1.5_research_spikes`
+- `1.6_define_architecture_and_standards`
+
+### Phase 2: Iterative Development
+- `2.1_design_feature_and_tech_spec`
+- `2.2_build_and_patch`
+- `2.3_qa_review_feature`
+- `2.4a_fix_bugs_from_qa`
+- `2.4b_retest_after_fixes`
+- `2.5_research_assist`
+- `2.7_agile_metrics`
+- `2.8_prepare_deployment_guide`
+
+### Phase 3: E2E Testing
+- `3.1_define_e2e_test_plan`
+- `3.2_execute_e2e_scenarios`
+- `3.3_fix_bugs_e2e`
+- `3.4_coordinate_e2e_demo`
+- `3.5_finalize_quality_metrics`
+
+### Phase 4: Go Live
+- `4.1_create_cutover_plan`
+- `4.2_final_smoke_tests`
+- `4.3_go_live_deployment`
+- `4.4_announce_go_live`
+- `4.5_go_live_retro`
+
+---
+
+## 🔄 Task Lifecycle
 
 | Phase | Tool | Description |
 |-------|------|-------------|
@@ -37,70 +91,47 @@ This system enables AI-assisted, task-based software delivery using:
 | Complete Task | `/tasks/complete` | Submits outputs, reasoning trace, handoff note |
 | Reopen Task | `/tasks/reopen` | Reopens task and logs reasoning why |
 
-Each task has a reasoning trace saved in:  
-`project/outputs/<task_id>/reasoning_trace.yaml`
-
 ---
 
-## ⚙️ 4. Key GPT Tools
+## ⚙️ Key GPT Tools
+
+These tools are available to the GPT Pods (and you) for completing, organizing, and reviewing work. They follow OpenAPI definitions and are callable via the system interface.
 
 | Tool | Use |
 |------|-----|
-| `/tasks/update_metadata` | Update fields like description, inputs, outputs |
-| `/tasks/activate` | Mark multiple tasks as ready or in-progress |
-| `/tasks/clone` | Clone an existing task |
-| `/tasks/create` | Create a brand new task |
-| `/tasks/getTaskDetails` | Retrieve task metadata |
-| `/tasks/next` | Get next recommended task |
-| `/memory/index` | Index files in memory.yaml |
-| `/memory/search` | Search memory for relevant files |
-| `/memory/diff` | Detect missing memory entries |
-| `/memory/validate-files` | Confirm files exist in GitHub + memory |
-| `/tasks/commit_and_log_output` | Mid-task file commit with changelog |
-| `/audit/validate_changelog` | Backfill missing changelog entries |
-| `/git/rollback_commit` | Revert files from prior commit |
-| `/getFile` and `/batch-files` | Retrieve file contents from GitHub |
-| `/actions/list` | List all tools by category with descriptions |
+| `/tasks/update_metadata` | Update task fields like description, inputs, and outputs |
+| `/tasks/activate` | Mark one or more tasks as ready or in-progress |
+| `/tasks/clone` | Duplicate an existing task (with optional changes) |
+| `/tasks/create` | Create a brand-new task from scratch |
+| `/tasks/getTaskDetails` | Retrieve full metadata for a task |
+| `/tasks/next` | Retrieve the next recommended task based on plan |
+| `/tasks/commit_and_log_output` | Commit output files mid-task with changelog |
+| `/memory/index` | Index files and add them to memory.yaml |
+| `/memory/search` | Search for relevant memory entries by keyword |
+| `/memory/diff` | Detect and list missing memory entries |
+| `/memory/validate-files` | Ensure listed files actually exist in memory + Git |
+| `/audit/validate_changelog` | Backfill any missing changelog entries based on outputs |
+| `/git/rollback_commit` | Roll back one or more files from a previous commit |
+| `/getFile` and `/batch-files` | Retrieve file content from GitHub (single or multiple) |
+| `/actions/list` | Get all available tools grouped by category with descriptions |
 
 ---
 
-## 📊 5. Logs & Reports
+## 📊 Logs & Reports
 
-| Report | File |
-|--------|------|
-| Changelog | `project/outputs/changelog.yaml` |
-| Reasoning Trace | `project/outputs/<task_id>/reasoning_trace.yaml` |
-| Metrics Report | `project/outputs/reports/metrics_report_<timestamp>.yaml` |
-| Reverts | `project/.logs/reverted_commits.yaml` |
-
----
-
-## 🛑 6. Rollback a Commit
-
-Use `/git/rollback_commit` and pass:
-
-{
-  "repo_name": "your-repo",
-  "commit_sha": "<sha>",
-  "paths": ["project/task.yaml"],
-  "reason": "Undo accidental memory index"
-}
-
-Commit SHAs can be found via:
-- GitHub web → Commits tab
-- `git log` in terminal
-- changelog or rollback logs
+| File | What It Tracks |
+|------|----------------|
+| `changelog.yaml` | Every committed file |
+| `reasoning_trace.yaml` | Thoughts, scores, and AI decision data |
+| `metrics_report.yaml` | Project-level performance |
+| `reverted_commits.yaml` | Undo history with reason |
+| `handoff_notes.yaml` | Pod-to-pod task transitions |
+| `chain_of_thought.yaml` | Inline reasoning log for each task |
 
 ---
 
-## 💡 7. Tips & Examples
+## ✅ You’re Ready
 
-- You can start any task by calling `/tasks/start` and following the `next_step`.
-- GPT will suggest tools, but you can guide it to use `/memory/search`, `/tasks/complete`, or `/metrics/summary`.
-- Logs are automatically committed — use `/git/rollback_commit` to fix mistakes.
+You're now equipped to lead a structured, AI-native delivery flow. Guide the pods, review logs, and evolve your process over time.
 
----
-
-## ✅ You're Ready!
-
-Welcome aboard. You're now set up to lead an AI-native delivery project — repeatable, traceable, and faster than ever.
+Let the system handle the structure — and let your team do the thinking.
