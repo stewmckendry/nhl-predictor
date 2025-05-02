@@ -1,85 +1,36 @@
-## 🧪 Memory Tools QA: Test Results Summary
+## 🧪 Memory Tools QA: Branching Regression Results
 
-### ✅ Overview  
-This document tracks test scenarios and outcomes for memory-related tools in the `nhl-predictor` repo. It is updated as bugs are found, fixed, and re-tested.
+### ✅ Overview
+This report captures validation of memory-related tools on sandbox branch `sandbox-ancient-eagle`.
 
 ---
 
 ### 📂 Tool: `/memory/manage`
 
 #### 1. Action: `add`
-**Input:**
-```json
-{
-  "repo_name": "nhl-predictor",
-  "action": "add",
-  "files": [{
-    "path": "README.md",
-    "description": "Main documentation file",
-    "tags": ["docs", "entry"],
-    "pod_owner": "QAPod"
-  }]
-}
-```
-**Initial Result:** ✅ `200 OK`, but entry not visible in memory index or updatable.  
-**Issue Logged:** ✔️ `20160501-001` - Silent failure when file missing in GitHub.  
-**Fix Applied:** System now validates file presence before 200 OK.  
-**Re-Test:** ✅ README.md added successfully with LLM metadata.
-
----
+- ✅ Successfully added README.md with correct metadata
 
 #### 2. Action: `index`
-**Input:**
-```json
-{
-  "repo_name": "nhl-predictor",
-  "action": "index",
-  "base_paths": ["framework/", "project/"]
-}
-```
-**Initial Result:** ❌ Error due to timeout / processing delay. Assumed failure.  
-**Observed:** GitHub memory.yaml eventually updated with 235 entries.  
-**Issue Logged:** ✔️ `20160501-002` - Misleading success message.  
-**Fix Applied:** Now async + returns entry totals.  
-**Re-Test:** ✅ System message reflects background indexing.
+- ✅ Async indexing triggered, system confirmed start
 
 ---
 
 ### 📂 Tool: `/memory/manage_entry`
 
 #### 3. Action: `update`
-**Input:**
-```json
-{
-  "repo_name": "nhl-predictor",
-  "path": "README.md",
-  "action": "update",
-  "description": "Updated doc entry",
-  "tags": ["documentation", "overview"],
-  "pod_owner": "WriterPod"
-}
-```
-**Result:** ✅ Successfully updated entry
-
----
+- ✅ Metadata updated for README.md (description, tags, pod owner)
 
 #### 4. Action: `remove`
-**Input:**
-```json
-{
-  "repo_name": "nhl-predictor",
-  "path": "README.md",
-  "action": "remove"
-}
-```
-**Result:** ✅ Successfully removed entry
+- ✅ README.md memory entry successfully removed
 
 ---
 
-### 📝 Issues Closed
-- `20160501-001` Memory add fails silently → Fixed by file check enforcement.
-- `20160501-002` Index returns misleading message → Fixed with async + count.
+### 📝 Notes
+- All actions scoped to the `sandbox-ancient-eagle` branch
+- Async behavior consistent with previous regression
+- Entry lifecycle (add → update → remove) verified end-to-end
 
----
+📁 **Branch:** `sandbox-ancient-eagle`  
+📅 **Date:** 2025-05-02
 
-_This document will be updated as new test cases are run._
+_This report confirms memory tools behave as expected in branch-isolated environments._
