@@ -251,3 +251,26 @@
   - schema-refresh
   status: open
   timestamp: '2025-05-02T18:32:45.604519'
+- type: bug
+  scope: framework
+  issue_id: b179deab-ce33-4f7a-8aff-e03431529540
+  task_id: null
+  title: ResponseTooLargeError when querying full memory index
+  detail: 'Calling `/memory/query` in `list` mode without filters results in a ResponseTooLargeError,
+    blocking attempts to validate full memory indexing.
+
+
+    This is a regression for projects with deep memory footprints or complex directory
+    structures.'
+  suggested_fix: '1. Add pagination or response truncation for /memory/query
+
+    2. Default to returning counts with a follow-up query option
+
+    3. Allow tag or path filters to scope down result set'
+  tags:
+  - memory
+  - query
+  - pagination
+  - usability
+  status: open
+  timestamp: '2025-05-02T19:04:20.010114'
