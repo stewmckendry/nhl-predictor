@@ -2909,3 +2909,15 @@
   - timestamp
   last_updated: '2025-05-02'
   pod_owner: ResearchPod
+- path: project/outputs/reports/metrics_report_20250502_185621.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/sandbox-ancient-eagle/project/outputs/reports/metrics_report_20250502_185621.yaml
+  file_type: yaml
+  description: Metrics report detailing quantitative and qualitative analysis of AI
+    task performance, including completion rates, thought quality, and reasoning insights.
+  tags:
+  - metrics
+  - analysis
+  - performance
+  - AI
+  last_updated: '2025-05-02'
+  pod_owner: ResearchPod
