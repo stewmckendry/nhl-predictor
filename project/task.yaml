@@ -735,5 +735,5 @@ tasks:
     pod_owner: QAPod
     prompt: framework/task_templates/QA/test_task_lifecycle/prompt_template.md
     prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
-    status: completed
-    updated_at: '2025-05-02T18:50:44.685446'
+    status: in_progress
+    updated_at: '2025-05-02T18:51:09.547435'
