@@ -12,3 +12,17 @@
   - error-handling
   status: open
   timestamp: '2025-05-02T04:22:44.695866'
+- type: bug
+  scope: framework
+  task_id: null
+  title: Memory index returns misleading message
+  detail: /memory/manage with action=index reports 'Memory indexed with X entries'
+    regardless of change. In our case, it said 38 entries even though no files existed
+    in the specified path.
+  suggested_fix: null
+  tags:
+  - memory
+  - usability
+  - indexing
+  status: open
+  timestamp: '2025-05-02T04:22:50.591529'
