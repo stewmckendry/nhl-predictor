@@ -3,3 +3,8 @@
   task_id: test_task_lifecycle-eb3424
   committed_by: unknown
   message: Log handoff note for test_task_lifecycle-eb3424
+- timestamp: '2025-05-02T10:51:05.454607'
+  path: .logs/issues/framework.yaml
+  task_id: null
+  committed_by: GPTPod
+  message: Log <class 'type'> in framework scope
