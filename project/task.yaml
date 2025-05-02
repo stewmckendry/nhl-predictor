@@ -1,5 +1,6 @@
 outputs:
 - project/tests/test_lifecycle_output.txt
+- project/outputs/test_task_lifecycle_output.txt
 tasks:
   0.1_update_task_metadata:
     assigned_to: unassigned
@@ -729,10 +730,10 @@ tasks:
   test_task_lifecycle-4d7a07:
     assigned_pod: QAPod
     created_at: '2025-05-02T18:50:22.073998'
-    done: false
+    done: true
     instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
     pod_owner: QAPod
     prompt: framework/task_templates/QA/test_task_lifecycle/prompt_template.md
-    status: in_progress
-    updated_at: '2025-05-02T18:50:32.465860'
     prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
+    status: completed
+    updated_at: '2025-05-02T18:50:44.685446'
