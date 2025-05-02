@@ -728,10 +728,10 @@ tasks:
     updated_at: '2025-05-02T10:58:19.094458'
   test_task_lifecycle-4d7a07:
     assigned_pod: QAPod
-    pod_owner: QAPod
     created_at: '2025-05-02T18:50:22.073998'
-    updated_at: null
     done: false
-    status: backlog
     instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
+    pod_owner: QAPod
     prompt: framework/task_templates/QA/test_task_lifecycle/prompt_template.md
+    status: planned
+    updated_at: null
