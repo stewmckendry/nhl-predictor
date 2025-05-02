@@ -274,3 +274,26 @@
   - usability
   status: open
   timestamp: '2025-05-02T19:04:20.010114'
+- type: bug
+  scope: framework
+  issue_id: 58857d9c-5312-4b38-82af-a43a367dfc14
+  task_id: null
+  title: /system/metrics export mode fails with branch param
+  detail: 'Calling `/system/metrics` with `mode: export` and a valid branch (e.g.,
+    `sandbox-ancient-eagle`) triggers a 500 Internal Server Error.
+
+
+    This blocks regression testing and CSV export of reasoning traces in branch-specific
+    test runs.'
+  suggested_fix: '1. Validate `branch` handling logic in export path
+
+    2. Add fallback or error guardrails for empty reasoning traces
+
+    3. Add unit test for export on sandbox branches'
+  tags:
+  - metrics
+  - export
+  - regression
+  - sandbox
+  status: open
+  timestamp: '2025-05-02T19:08:15.306388'
