@@ -730,10 +730,15 @@ tasks:
   test_task_lifecycle-4d7a07:
     assigned_pod: QAPod
     created_at: '2025-05-02T18:50:22.073998'
+    description: Updated test description
     done: true
+    inputs:
+    - sample
     instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
+    outputs:
+    - result
     pod_owner: QAPod
-    prompt: framework/task_templates/QA/test_task_lifecycle/prompt_template.md
+    prompt: Test lifecycle operations
     prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
     status: in_progress
-    updated_at: '2025-05-02T18:51:09.547435'
+    updated_at: '2025-05-02T18:51:23.825194'
