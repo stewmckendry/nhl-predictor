@@ -1,101 +1,115 @@
-- description: ''
+- description: Fallback summary for project/docs/.gitkeep
   file_type: gitkeep
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/.gitkeep
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/.gitkeep
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/bugs/deployment_issues_debug_report.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/bugs/deployment_issues_debug_report.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/deployment_issues_debug_report.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/bugs/frontend_usability_bug.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/bugs/frontend_usability_bug.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/frontend_usability_bug.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/bugs/qa_bug_missing_package_json.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/bugs/qa_bug_missing_package_json.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/qa_bug_missing_package_json.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/deployment/deployment_guide.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/deployment/deployment_guide.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/deployment/deployment_guide.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/features/feature_playoff_simulation.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/features/feature_playoff_simulation.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/features/feature_playoff_simulation.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/journeys/app_walkthrough.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/journeys/app_walkthrough.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/journeys/app_walkthrough.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/personas/user_roles.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/personas/user_roles.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/personas/user_roles.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/project_goals.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/project_goals.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/project_goals.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/solution_overview.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/solution_overview.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/solution_overview.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/specs/spec_playoff_simulation.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/specs/spec_playoff_simulation_v2.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation_v2.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation_v2.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/specs/spec_playoff_simulation_v3.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation_v3.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation_v3.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/docs/workflows/delivery_flow.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/docs/workflows/delivery_flow.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/workflows/delivery_flow.md
-  tags: []
+  tags:
+  - auto
 - description: ''
   file_type: DS_Store
   last_updated: '2025-04-30'
@@ -103,163 +117,1761 @@
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/.DS_Store
   tags: []
-- description: ''
+- description: Fallback summary for project/outputs/.gitkeep
   file_type: gitkeep
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/.gitkeep
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/.gitkeep
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.3_break_into_features/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.3_break_into_features/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.3_break_into_features/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.3_break_into_features/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.3_break_into_features/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.3_break_into_features/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.2_build_and_patch/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.2_build_and_patch/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.2_build_and_patch/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.2_build_and_patch/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.2_build_and_patch/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.2_build_and_patch/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/changelog.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/changelog.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/changelog.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/compiled_chain_of_thought.yaml
   file_type: yaml
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/compiled_chain_of_thought.yaml
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/compiled_chain_of_thought.yaml
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/project_init/prompt_used.txt
   file_type: txt
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/project_init/prompt_used.txt
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/project_init/prompt_used.txt
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/project_init/reasoning_trace.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/project_init/reasoning_trace.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/project_init/reasoning_trace.md
-  tags: []
-- description: ''
+  tags:
+  - auto
+- description: Fallback summary for project/outputs/summary_chain_of_thoughts.md
   file_type: md
-  last_updated: '2025-04-30'
+  last_updated: '2025-05-02'
   path: project/outputs/summary_chain_of_thoughts.md
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/summary_chain_of_thoughts.md
-  tags: []
+  tags:
+  - auto
 - description: Guide for deploying to Railway
   path: project/docs/deployment_guide.md
   pod_owner: DevPod
   tags:
   - deployment
   - guide
+- path: framework/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for framework/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/README.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/README.md
+  file_type: md
+  description: Fallback summary for framework/docs/README.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/doc_restructure_plan.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/doc_restructure_plan.md
+  file_type: md
+  description: Fallback summary for framework/docs/doc_restructure_plan.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/guides/getting_started.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/getting_started.md
+  file_type: md
+  description: Fallback summary for framework/docs/guides/getting_started.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/guides/organizational_adoption.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/organizational_adoption.md
+  file_type: md
+  description: Fallback summary for framework/docs/guides/organizational_adoption.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/guides/partner_onboarding_guide.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/partner_onboarding_guide.md
+  file_type: md
+  description: Fallback summary for framework/docs/guides/partner_onboarding_guide.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/guides/setup_framework.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/setup_framework.md
+  file_type: md
+  description: Fallback summary for framework/docs/guides/setup_framework.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/AI_native_handoff_strategy.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/AI_native_handoff_strategy.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/AI_native_handoff_strategy.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/POD_SOPs.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/POD_SOPs.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/POD_SOPs.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/Pod_system_standards.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/Pod_system_standards.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/Pod_system_standards.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/ai_native_automated_patch_promotion.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/ai_native_automated_patch_promotion.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/ai_native_automated_patch_promotion.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/pod_contribution_flow.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/pod_contribution_flow.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/pod_contribution_flow.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/operating/repo_structure_upkeep_guide.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/repo_structure_upkeep_guide.md
+  file_type: md
+  description: Fallback summary for framework/docs/operating/repo_structure_upkeep_guide.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/AI_delivery_features.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/AI_delivery_features.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/AI_delivery_features.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/ethics_traceability.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/ethics_traceability.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/ethics_traceability.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/features.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/features.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/features.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/scaling_ai_native_delivery.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/scaling_ai_native_delivery.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/scaling_ai_native_delivery.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/security_and_governance_notes.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/security_and_governance_notes.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/security_and_governance_notes.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/system_overview.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/system_overview.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/system_overview.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/systems_overview.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/systems_overview.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/systems_overview.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/overview/what_is_ai_native_delivery.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/what_is_ai_native_delivery.md
+  file_type: md
+  description: Fallback summary for framework/docs/overview/what_is_ai_native_delivery.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/poc/ai_native_poc.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/poc/ai_native_poc.md
+  file_type: md
+  description: Fallback summary for framework/docs/poc/ai_native_poc.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/poc/ai_native_poc_feedback.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/poc/ai_native_poc_feedback.md
+  file_type: md
+  description: Fallback summary for framework/docs/poc/ai_native_poc_feedback.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/roadmap/ai_native_langchain_enhance.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/ai_native_langchain_enhance.md
+  file_type: md
+  description: Fallback summary for framework/docs/roadmap/ai_native_langchain_enhance.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/roadmap/current_sprint.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/current_sprint.md
+  file_type: md
+  description: Fallback summary for framework/docs/roadmap/current_sprint.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/roadmap/roadmap_2025-04-23.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/roadmap_2025-04-23.md
+  file_type: md
+  description: Fallback summary for framework/docs/roadmap/roadmap_2025-04-23.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/AI_native_metrics_framework.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/AI_native_metrics_framework.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/AI_native_metrics_framework.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_delivery_enhancements.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_delivery_enhancements.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_delivery_enhancements.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_delivery_operating_system.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_delivery_operating_system.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_delivery_operating_system.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_native_branching.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_branching.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_native_branching.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_native_memory_access.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_memory_access.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_native_memory_access.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_native_memory_mgmt.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_memory_mgmt.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_native_memory_mgmt.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/system/ai_native_task_mgmt.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_task_mgmt.md
+  file_type: md
+  description: Fallback summary for framework/docs/system/ai_native_task_mgmt.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/tools/ai_native_delivery_plan.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/tools/ai_native_delivery_plan.md
+  file_type: md
+  description: Fallback summary for framework/docs/tools/ai_native_delivery_plan.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/docs/tools/tools_catalog.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/tools/tools_catalog.md
+  file_type: md
+  description: Fallback summary for framework/docs/tools/tools_catalog.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/memory_stub.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/memory_stub.yaml
+  file_type: yaml
+  description: Fallback summary for framework/memory_stub.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/activate_task.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/activate_task.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/activate_task.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/clone_task.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/clone_task.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/clone_task.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/getBatchFiles.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/getBatchFiles.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/getBatchFiles.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/getGitHubFile.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/getGitHubFile.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/getGitHubFile.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/get_patch.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/get_patch.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/get_patch.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/get_task_details.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/get_task_details.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/get_task_details.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/list_tools.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/list_tools.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/list_tools.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/promote_output_files.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_output_files.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/promote_output_files.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/promote_patch.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/promote_patch.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/promote_patch_existing_file.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch_existing_file.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/promote_patch_existing_file.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/promote_patch_new_file.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch_new_file.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/promote_patch_new_file.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/prompts/gpt_tools/update_task_metadata.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/update_task_metadata.txt
+  file_type: txt
+  description: Fallback summary for framework/prompts/gpt_tools/update_task_metadata.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/clean_legacy_script.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/clean_legacy_script.py
+  file_type: py
+  description: Fallback summary for framework/scripts/clean_legacy_script.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/complete_task.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/complete_task.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/complete_task.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/create_pr_from_patch.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/create_pr_from_patch.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/create_pr_from_patch.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/fix_git_repo.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/fix_git_repo.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/fix_git_repo.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/fix_wrong_branch_commit.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/fix_wrong_branch_commit.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/fix_wrong_branch_commit.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/generate_memory.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_memory.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/generate_memory.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/generate_patch.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_patch.py
+  file_type: py
+  description: Fallback summary for framework/scripts/generate_patch.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/generate_patch_from_output.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_patch_from_output.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/generate_patch_from_output.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/init_repo.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/init_repo.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/init_repo.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/init_tasks_from_templates.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/init_tasks_from_templates.py
+  file_type: py
+  description: Fallback summary for framework/scripts/init_tasks_from_templates.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/initialize_repo_structure.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/initialize_repo_structure.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/initialize_repo_structure.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/move_branch_to_main.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/move_branch_to_main.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/move_branch_to_main.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/promote_patch.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/promote_patch.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/promote_patch.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/prune_old_branches.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/prune_old_branches.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/prune_old_branches.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/reset_conflicts.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/reset_conflicts.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/reset_conflicts.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/setup_ai_delivery.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/setup_ai_delivery.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/setup_ai_delivery.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/sync_with_main.sh
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/sync_with_main.sh
+  file_type: sh
+  description: Fallback summary for framework/scripts/sync_with_main.sh
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/scripts/validate_patch.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/validate_patch.py
+  file_type: py
+  description: Fallback summary for framework/scripts/validate_patch.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
+  file_type: txt
+  description: Fallback summary for framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/handoff_notes_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/handoff_notes_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Cross-Phase/handoff_notes_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Cross-Phase/reasoning_log_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/reasoning_log_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Cross-Phase/reasoning_log_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.5_research_support/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
+  file_type: yaml
+  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
+  file_type: md
+  description: Fallback summary for framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/.env.local
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.env.local
+  file_type: local
+  description: Fallback summary for project/.env.local
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/.gitignore
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.gitignore
+  file_type: gitignore
+  description: Fallback summary for project/.gitignore
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/__init__.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/__init__.py
+  file_type: py
+  description: Fallback summary for project/__init__.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/app/BracketDisplay.jsx
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/app/BracketDisplay.jsx
+  file_type: jsx
+  description: Fallback summary for project/app/BracketDisplay.jsx
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/app/SimulatePage.jsx
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/app/SimulatePage.jsx
+  file_type: jsx
+  description: Fallback summary for project/app/SimulatePage.jsx
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/__init__.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/__init__.py
+  file_type: py
+  description: Fallback summary for project/backend/__init__.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/bracket/__init__.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/bracket/__init__.py
+  file_type: py
+  description: Fallback summary for project/backend/bracket/__init__.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/bracket/playoff_bracket.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/bracket/playoff_bracket.yaml
+  file_type: yaml
+  description: Fallback summary for project/backend/bracket/playoff_bracket.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/fastapi_server.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/fastapi_server.py
+  file_type: py
+  description: Fallback summary for project/backend/fastapi_server.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/requirements.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/requirements.txt
+  file_type: txt
+  description: Fallback summary for project/backend/requirements.txt
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/simulator/__init__.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/simulator/__init__.py
+  file_type: py
+  description: Fallback summary for project/backend/simulator/__init__.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/backend/simulator/simulation_engine.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/simulator/simulation_engine.py
+  file_type: py
+  description: Fallback summary for project/backend/simulator/simulation_engine.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/compile_chain_of_thoughts.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/compile_chain_of_thoughts.py
+  file_type: py
+  description: Fallback summary for project/compile_chain_of_thoughts.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/data/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/data/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/data/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/docs/onboarding_guide.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/onboarding_guide.md
+  file_type: md
+  description: Fallback summary for project/docs/onboarding_guide.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/docs/onboarding_guide_simple.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/onboarding_guide_simple.md
+  file_type: md
+  description: Fallback summary for project/docs/onboarding_guide_simple.md
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/logs/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/logs/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/logs/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/memory.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/memory.yaml
+  file_type: yaml
+  description: Fallback summary for project/memory.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/notebooks/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/notebooks/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/notebooks/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/package.json
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/package.json
+  file_type: json
+  description: Fallback summary for project/package.json
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/pages/api/simulate.js
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/pages/api/simulate.js
+  file_type: js
+  description: Fallback summary for project/pages/api/simulate.js
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/pages/index.js
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/pages/index.js
+  file_type: js
+  description: Fallback summary for project/pages/index.js
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/src/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/src/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/src/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/styles/globals.css
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/styles/globals.css
+  file_type: css
+  description: Fallback summary for project/styles/globals.css
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/task.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/task.yaml
+  file_type: yaml
+  description: Fallback summary for project/task.yaml
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/test/.gitkeep
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/test/.gitkeep
+  file_type: gitkeep
+  description: Fallback summary for project/test/.gitkeep
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/tests/test_fastapi_server.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_fastapi_server.py
+  file_type: py
+  description: Fallback summary for project/tests/test_fastapi_server.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/tests/test_simulate_api.js
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_simulate_api.js
+  file_type: js
+  description: Fallback summary for project/tests/test_simulate_api.js
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
+- path: project/tests/test_simulation_engine.py
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_simulation_engine.py
+  file_type: py
+  description: Fallback summary for project/tests/test_simulation_engine.py
+  tags:
+  - auto
+  last_updated: '2025-05-02'
+  pod_owner: ''
