@@ -197,3 +197,19 @@
   - bug
   status: closed
   timestamp: '2025-05-02T11:25:36.723759'
+- type: bug
+  scope: framework
+  issue_id: 4c63f13c-8a24-4bcd-ace0-7272fef8eb6a
+  task_id: null
+  title: Metrics export returned no data despite valid reasoning traces
+  detail: The /system/metrics export mode returned 0 entries due to missing CSV export
+    logic and lack of recursive walk over task outputs. Patch added folder walk and
+    output serialization.
+  suggested_fix: Implement CSV export handler and output folder traversal to match
+    summary logic.
+  tags:
+  - metrics
+  - export
+  - bug
+  status: closed
+  timestamp: '2025-05-02T11:33:35.249871'
