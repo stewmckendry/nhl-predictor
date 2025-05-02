@@ -106,3 +106,18 @@
   - lifecycle
   status: closed
   timestamp: '2025-05-02T11:07:25.451418'
+- type: bug
+  scope: framework
+  issue_id: 7c0f7685-380b-4925-88b5-b00e8f435bb2
+  task_id: null
+  title: Reopen fails if pod_owner missing
+  detail: Calling /tasks/lifecycle with action=reopen failed when pod_owner wasn't
+    passed, despite being set in the task. Fixed by patch using assigned_pod as fallback.
+  suggested_fix: Patch now defaults pod_owner from assigned_pod if not explicitly
+    passed.
+  tags:
+  - task
+  - reopen
+  - lifecycle
+  status: closed
+  timestamp: '2025-05-02T11:07:33.286416'
