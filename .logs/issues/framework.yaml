@@ -1,4 +1,4 @@
-- type: !!python/name:builtins.type ''
+- type: bug
   scope: framework
   task_id: null
   title: Memory add fails silently if file not present in GitHub
@@ -11,4 +11,4 @@
   - validation
   - error-handling
   status: open
-  timestamp: '2025-05-02T04:17:40.628630'
+  timestamp: '2025-05-02T04:22:44.695866'
