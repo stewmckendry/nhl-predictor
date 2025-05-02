@@ -2727,12 +2727,3 @@
   - playoffs
   last_updated: '2025-05-02'
   pod_owner: QAPod
-- path: README.md
-  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/README.md
-  file_type: md
-  description: Updated doc entry
-  tags:
-  - documentation
-  - overview
-  last_updated: '2025-05-02'
-  pod_owner: WriterPod
