@@ -1,115 +1,171 @@
-- description: Fallback summary for project/docs/.gitkeep
+- description: Placeholder file to ensure the presence of the docs directory in version
+    control
   file_type: gitkeep
   last_updated: '2025-05-02'
   path: project/docs/.gitkeep
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/.gitkeep
   tags:
-  - auto
-- description: Fallback summary for project/docs/bugs/deployment_issues_debug_report.md
+  - docs
+  - version-control
+  - placeholder
+- description: Document detailing deployment issues and manual fixes for integrating
+    a FastAPI backend with a Next.js frontend on Railway.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/bugs/deployment_issues_debug_report.md
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/deployment_issues_debug_report.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/bugs/frontend_usability_bug.md
+  - deployment
+  - debug
+  - integration
+  - config
+- description: Document detailing frontend usability issues and recommended fixes
+    for a project, including observed UX problems and implemented enhancements.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/bugs/frontend_usability_bug.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/frontend_usability_bug.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/bugs/qa_bug_missing_package_json.md
+  - frontend
+  - usability
+  - ux
+  - bug
+- description: Documentation of a bug related to missing Node.js project files causing
+    deployment failure, with details on the fix implemented.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/bugs/qa_bug_missing_package_json.md
-  pod_owner: ''
+  pod_owner: QAPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/bugs/qa_bug_missing_package_json.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/deployment/deployment_guide.md
+  - bug
+  - deployment
+  - Node.js
+  - config
+- description: Guide detailing the deployment process for the frontend and backend
+    of the NHL Playoff Simulator using Railway, including environment configuration
+    and post-deployment checks.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/deployment/deployment_guide.md
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/deployment/deployment_guide.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/features/feature_playoff_simulation.md
+  - deployment
+  - config
+  - frontend
+  - backend
+- description: Document detailing the core functionality for simulating NHL playoff
+    brackets, allowing users to input series results and generate predicted outcomes.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/features/feature_playoff_simulation.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/features/feature_playoff_simulation.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/journeys/app_walkthrough.md
+  - feature
+  - simulation
+  - playoff
+  - bracket
+- description: Documentation of the "Simulate Playoff Outcome" user journey, detailing
+    steps, roles, and success criteria for predicting playoff brackets.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/journeys/app_walkthrough.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/journeys/app_walkthrough.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/personas/user_roles.md
+  - journey
+  - flow
+  - user experience
+- description: Document detailing user roles and personas for an NHL playoff simulation
+    feature.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/personas/user_roles.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/personas/user_roles.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/project_goals.md
+  - user roles
+  - personas
+  - config
+- description: Document outlining the goals and objectives for the AI-powered NHL
+    playoff simulation app, focusing on modular development and rapid iteration.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/project_goals.md
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/project_goals.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/solution_overview.md
+  - project
+  - goals
+  - AI-native
+  - delivery
+- description: Overview of the solution architecture, detailing major components,
+    their interactions, and data flow for a playoff simulation application.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/solution_overview.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/solution_overview.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/specs/spec_playoff_simulation.md
+  - architecture
+  - flow
+  - components
+- description: Technical specification for the Playoff Simulation Core feature, detailing
+    inputs, outputs, API functions, sequence flow, and tech stack for simulating NHL
+    playoff outcomes.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/specs/spec_playoff_simulation_v2.md
+  - spec
+  - simulation
+  - API
+  - config
+- description: Technical specification for the updated Playoff Simulation Core, detailing
+    inputs, outputs, key functions, sequence flow, and enhancements for simulating
+    NHL playoffs.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation_v2.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation_v2.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/specs/spec_playoff_simulation_v3.md
+  - spec
+  - simulation
+  - API
+  - flow
+- description: Technical specification for the Playoff Simulation Core, detailing
+    the integration of a FastAPI backend with a Next.js frontend for simulating playoff
+    brackets.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/specs/spec_playoff_simulation_v3.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/specs/spec_playoff_simulation_v3.md
   tags:
-  - auto
-- description: Fallback summary for project/docs/workflows/delivery_flow.md
+  - spec
+  - simulation
+  - FastAPI
+  - Next.js
+- description: Document outlining the delivery workflow for the NHL Playoff Predictor
+    project, detailing steps from goal setting to MVP demonstration.
   file_type: md
   last_updated: '2025-05-02'
   path: project/docs/workflows/delivery_flow.md
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/workflows/delivery_flow.md
   tags:
-  - auto
+  - delivery
+  - workflow
+  - DevPod
+  - MVP
 - description: ''
   file_type: DS_Store
   last_updated: '2025-04-30'
@@ -117,182 +173,254 @@
   pod_owner: ''
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/.DS_Store
   tags: []
-- description: Fallback summary for project/outputs/.gitkeep
+- description: Placeholder file to ensure the outputs directory is tracked by Git
   file_type: gitkeep
   last_updated: '2025-05-02'
   path: project/outputs/.gitkeep
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/.gitkeep
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
+  - git
+  - repository
+  - placeholder
+- description: Document outlining the prioritized goals and considerations for an
+    AI-native delivery project during the NHL playoffs.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.1_capture_project_goals/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
+  - goals
+  - project
+  - delivery
+- description: Analysis of project goal capturing process with insights and improvement
+    opportunities
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.1_capture_project_goals/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
+  - reasoning
+  - analysis
+  - improvement
+- description: Document outlining the design considerations for user and delivery
+    flows, emphasizing short user journeys and a single pod ownership model.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.2_define_user_and_delivery_flows/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
+  - flow
+  - design
+  - delivery
+- description: Reasoning trace for defining user and delivery flows with insights
+    and improvement opportunities
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.2_define_user_and_delivery_flows/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.3_break_into_features/chain_of_thought.yaml
+  - reasoning
+  - flow
+  - improvement
+- description: Documentation of feature prioritization and design criteria for a project
+    MVP, focusing on speed and efficiency.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.3_break_into_features/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.3_break_into_features/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.3_break_into_features/reasoning_trace.yaml
+  - features
+  - planning
+  - design
+- description: YAML file containing reasoning traces, improvement opportunities, and
+    scoring for a specific task in the project.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.3_break_into_features/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.3_break_into_features/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
+  - reasoning
+  - scoring
+  - improvement
+- description: Documentation of architecture design decisions and standards for the
+    MVP, focusing on simplicity and clarity.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.6_define_architecture_and_standards/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
+  - architecture
+  - standards
+  - config
+- description: Reasoning trace documenting the thought process and evaluation for
+    defining architecture and standards.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/1.6_define_architecture_and_standards/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
+  - reasoning
+  - evaluation
+  - architecture
+- description: Log of design and technical specifications updates for a simulation
+    feature, detailing enhancements, architecture decisions, and roadmap planning.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.1_design_feature_and_tech_spec/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
+  - design
+  - spec
+  - simulation
+  - roadmap
+- description: Document detailing reasoning trace for design feature and tech spec
+    task, including insights and improvement opportunities.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.1_design_feature_and_tech_spec/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.2_build_and_patch/chain_of_thought.yaml
+  - design
+  - reasoning
+  - improvement
+- description: Log of development updates and changes for a playoff simulation engine,
+    including modularization, API design, deployment setup, and issue resolutions.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.2_build_and_patch/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.2_build_and_patch/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.2_build_and_patch/reasoning_trace.yaml
+  - development
+  - deployment
+  - API
+  - modularization
+- description: Contains reasoning trace for task 2.2, including insights, improvement
+    opportunities, and scoring.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.2_build_and_patch/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.2_build_and_patch/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
+  - reasoning
+  - insights
+  - scoring
+- description: Log of bug fixes and UX improvements for a project, including deployment
+    issues and frontend enhancements.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: QAPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.4a_fix_bugs_from_qa/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
+  - bug report
+  - UX
+  - deployment
+  - improvement
+- description: Reasoning trace for task 2.4a, including insights and improvement opportunities
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: QAPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.4a_fix_bugs_from_qa/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
+  - reasoning
+  - qa
+  - improvement
+- description: Deployment guide focusing on simplicity and Railway-first deployment,
+    with modular structure for easy upgrades and accessibility for both technical
+    and semi-technical users.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.8_prepare_deployment_guide/chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
+  - deployment
+  - guide
+  - Railway
+  - accessibility
+- description: Reasoning trace for preparing a deployment guide, including insights
+    and improvement opportunities.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/2.8_prepare_deployment_guide/reasoning_trace.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/changelog.yaml
+  - deployment
+  - reasoning
+  - insights
+- description: This file contains a chronological log of changes made to various project
+    files, detailing tasks related to bug fixes, feature design, and build processes,
+    along with their timestamps.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/changelog.yaml
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/changelog.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/compiled_chain_of_thought.yaml
+  - changelog
+  - tasks
+  - development
+- description: This file documents the iterative development process and design decisions
+    for an MVP playoff simulation engine, focusing on feature prioritization, user
+    and delivery flows, and technical specifications.
   file_type: yaml
   last_updated: '2025-05-02'
   path: project/outputs/compiled_chain_of_thought.yaml
-  pod_owner: ''
+  pod_owner: DevPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/compiled_chain_of_thought.yaml
   tags:
-  - auto
-- description: Fallback summary for project/outputs/project_init/prompt_used.txt
+  - development
+  - design
+  - MVP
+  - simulation
+- description: Contains the initial prompt used for the NHL Predictor project.
   file_type: txt
   last_updated: '2025-05-02'
   path: project/outputs/project_init/prompt_used.txt
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/project_init/prompt_used.txt
   tags:
-  - auto
-- description: Fallback summary for project/outputs/project_init/reasoning_trace.md
+  - prompt
+  - project_init
+  - model
+- description: Documentation of the reasoning process for initializing the NHL playoff
+    outcome predictor project.
   file_type: md
   last_updated: '2025-05-02'
   path: project/outputs/project_init/reasoning_trace.md
-  pod_owner: ''
+  pod_owner: ResearchPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/project_init/reasoning_trace.md
   tags:
-  - auto
-- description: Fallback summary for project/outputs/summary_chain_of_thoughts.md
+  - initialization
+  - reasoning
+  - documentation
+- description: Summary of reasoning logs from the NHL Playoff Predictor App, highlighting
+    key themes and actionable insights for AI-native delivery.
   file_type: md
   last_updated: '2025-05-02'
   path: project/outputs/summary_chain_of_thoughts.md
-  pod_owner: ''
+  pod_owner: DeliveryPod
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/summary_chain_of_thoughts.md
   tags:
-  - auto
+  - summary
+  - delivery
+  - architecture
+  - UX
 - description: Guide for deploying to Railway
   path: project/docs/deployment_guide.md
   pod_owner: DevPod
@@ -302,1576 +430,2300 @@
 - path: framework/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for framework/.gitkeep
+  description: Placeholder file to ensure the framework directory is tracked by Git
   tags:
-  - auto
+  - git
+  - placeholder
+  - directory
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/docs/README.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/README.md
   file_type: md
-  description: Fallback summary for framework/docs/README.md
+  description: Documentation for the AI-Native Delivery Framework, including guides,
+    system design, and operating standards.
   tags:
-  - auto
+  - documentation
+  - framework
+  - system design
+  - standards
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/doc_restructure_plan.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/doc_restructure_plan.md
   file_type: md
-  description: Fallback summary for framework/docs/doc_restructure_plan.md
+  description: Plan for restructuring and refining documentation to improve organization,
+    audience targeting, and usability, including assessment, consolidation, and publishing
+    strategies.
   tags:
-  - auto
+  - documentation
+  - strategy
+  - restructure
+  - audience
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/guides/getting_started.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/getting_started.md
   file_type: md
-  description: Fallback summary for framework/docs/guides/getting_started.md
+  description: Guide for new team members on using the AI-Native Delivery Framework,
+    detailing roles, processes, data management, and technology stack.
   tags:
-  - auto
+  - guide
+  - framework
+  - process
+  - tasks
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/guides/organizational_adoption.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/organizational_adoption.md
   file_type: md
-  description: Fallback summary for framework/docs/guides/organizational_adoption.md
+  description: Guide for Change Leaders and Program Managers on introducing AI-Native
+    Delivery into organizations, focusing on cultural shifts and phased adoption strategies.
   tags:
-  - auto
+  - adoption
+  - strategy
+  - cultural_shift
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/guides/partner_onboarding_guide.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/partner_onboarding_guide.md
   file_type: md
-  description: Fallback summary for framework/docs/guides/partner_onboarding_guide.md
+  description: Guide for onboarding partners and system integrators to deliver AI-native
+    projects, covering roles, technical skills, onboarding steps, client collaboration,
+    and success metrics.
   tags:
-  - auto
+  - onboarding
+  - delivery
+  - integration
+  - guide
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/guides/setup_framework.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/guides/setup_framework.md
   file_type: md
-  description: Fallback summary for framework/docs/guides/setup_framework.md
+  description: Guide for setting up the AI-Native Delivery Framework, including deploying
+    a FastAPI server, connecting to GitHub, and configuring system components.
   tags:
-  - auto
+  - setup
+  - deployment
+  - api
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/AI_native_handoff_strategy.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/AI_native_handoff_strategy.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/AI_native_handoff_strategy.md
+  description: Document outlining strategies for improving handoffs between Pods in
+    AI-native delivery systems, emphasizing structured documentation and seamless
+    integration.
   tags:
-  - auto
+  - handoff
+  - documentation
+  - strategy
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/POD_SOPs.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/POD_SOPs.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/POD_SOPs.md
+  description: Standard operating procedures for the Delivery Pod, detailing mission,
+    roles, tasks, tools, outputs, and execution standards for managing delivery processes.
   tags:
-  - auto
+  - sop
+  - delivery
+  - planning
+  - coordination
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/Pod_system_standards.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/Pod_system_standards.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/Pod_system_standards.md
+  description: Document outlining the missions, core capabilities, and system prompts
+    for various Pods within the organization, including ProductPod and QAPod.
   tags:
-  - auto
+  - standards
+  - system
+  - prompts
+  - pods
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/ai_native_automated_patch_promotion.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/ai_native_automated_patch_promotion.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/ai_native_automated_patch_promotion.md
+  description: Documentation on the AI-native automated patch promotion system, detailing
+    the process and technology stack for frictionless file updates and traceable changes
+    using GPT Pods and GitHub.
   tags:
-  - auto
+  - automation
+  - process
+  - GitHub
+  - FastAPI
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/pod_contribution_flow.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/pod_contribution_flow.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/pod_contribution_flow.md
+  description: Guide for Pod contributors on submitting output files to GitHub using
+    metadata-driven patches, ensuring traceability and automation in the delivery
+    process.
   tags:
-  - auto
+  - contribution
+  - flow
+  - automation
+  - metadata
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/operating/repo_structure_upkeep_guide.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/operating/repo_structure_upkeep_guide.md
   file_type: md
-  description: Fallback summary for framework/docs/operating/repo_structure_upkeep_guide.md
+  description: Guide outlining the standard structure and maintenance practices for
+    AI-native delivery project repositories, including directory setup, scripts, and
+    memory indexing.
   tags:
-  - auto
+  - structure
+  - maintenance
+  - scripts
+  - indexing
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/AI_delivery_features.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/AI_delivery_features.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/AI_delivery_features.md
+  description: Overview of AI-native delivery system features, including pod flows,
+    orchestration, and structured management.
   tags:
-  - auto
+  - delivery
+  - orchestration
+  - pod
+  - system
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/ethics_traceability.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/ethics_traceability.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/ethics_traceability.md
+  description: Document detailing ethical practices and traceability measures in AI-Native
+    Delivery, including reasoning transparency, traceability of outputs, and risk
+    mitigation strategies.
   tags:
-  - auto
+  - ethics
+  - traceability
+  - transparency
+  - compliance
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/features.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/features.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/features.md
+  description: Overview of core features in the AI-native delivery framework, including
+    modular pod systems, structured memory, reasoning traceability, automated patch
+    promotion, and metrics-driven improvement.
   tags:
-  - auto
+  - features
+  - pods
+  - memory
+  - metrics
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/scaling_ai_native_delivery.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/scaling_ai_native_delivery.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/scaling_ai_native_delivery.md
+  description: Guide on scaling AI-native delivery processes, focusing on Pods, memory,
+    reasoning metrics, and governance to handle increased complexity and team size.
   tags:
-  - auto
+  - scaling
+  - pods
+  - memory
+  - governance
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/security_and_governance_notes.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/security_and_governance_notes.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/security_and_governance_notes.md
+  description: Document outlining security and governance practices integrated into
+    the AI-Native Framework, focusing on secure access management, governance processes,
+    and philosophical principles.
   tags:
-  - auto
+  - security
+  - governance
+  - access management
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/system_overview.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/system_overview.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/system_overview.md
+  description: Overview of the system's workflow, detailing the stages from task initiation
+    to completion and the integration of core tools at each stage.
   tags:
-  - auto
+  - flow
+  - system
+  - tools
+  - process
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/systems_overview.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/systems_overview.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/systems_overview.md
+  description: Overview of the AI-Native Delivery Framework's modular systems, including
+    user roles, process flow, data management, technology stack, and system behavior.
   tags:
-  - auto
+  - framework
+  - process
+  - memory
+  - automation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/overview/what_is_ai_native_delivery.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/overview/what_is_ai_native_delivery.md
   file_type: md
-  description: Fallback summary for framework/docs/overview/what_is_ai_native_delivery.md
+  description: Overview of AI-Native Delivery, highlighting its philosophy, user interaction,
+    process, data management, technology stack, and benefits.
   tags:
-  - auto
+  - AI
+  - delivery
+  - process
+  - memory
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/poc/ai_native_poc.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/poc/ai_native_poc.md
   file_type: md
-  description: Fallback summary for framework/docs/poc/ai_native_poc.md
+  description: Guide for building a complete AI-powered micro-application using an
+    AI-native delivery system, focusing on modularity, traceability, and real-world
+    application through a field test inspired by the NHL Playoffs.
   tags:
-  - auto
+  - ai-native
+  - micro-app
+  - workflow
+  - modular
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/poc/ai_native_poc_feedback.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/poc/ai_native_poc_feedback.md
   file_type: md
-  description: Fallback summary for framework/docs/poc/ai_native_poc_feedback.md
+  description: Document detailing feedback and issues encountered during the NHL Playoff
+    Predictor PoC launch, including tooling friction points and proposed improvements.
   tags:
-  - auto
+  - poc
+  - tooling
+  - feedback
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/roadmap/ai_native_langchain_enhance.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/ai_native_langchain_enhance.md
   file_type: md
-  description: Fallback summary for framework/docs/roadmap/ai_native_langchain_enhance.md
+  description: Documentation on enhancing AI-native delivery using LangChain, detailing
+    its features, benefits, and integration examples with FastAPI.
   tags:
-  - auto
+  - LangChain
+  - workflow
+  - integration
+  - FastAPI
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/roadmap/current_sprint.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/current_sprint.md
   file_type: md
-  description: Fallback summary for framework/docs/roadmap/current_sprint.md
+  description: Document outlining the current sprint roadmap for the AI-Native Delivery
+    System, detailing core feature additions, field-testing plans, and future enhancement
+    suggestions.
   tags:
-  - auto
+  - roadmap
+  - delivery
+  - feature
+  - prompts
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/roadmap/roadmap_2025-04-23.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/roadmap/roadmap_2025-04-23.md
   file_type: md
-  description: Fallback summary for framework/docs/roadmap/roadmap_2025-04-23.md
+  description: Document outlining the roadmap for AI-native delivery, detailing enhancements
+    across patch delivery, task management, planning, and developer experience for
+    improved workflow and system effectiveness.
   tags:
-  - auto
+  - roadmap
+  - delivery
+  - patch
+  - task management
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/AI_native_metrics_framework.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/AI_native_metrics_framework.md
   file_type: md
-  description: Fallback summary for framework/docs/system/AI_native_metrics_framework.md
+  description: Comprehensive design document for an AI-native metrics framework focused
+    on tracking and improving delivery performance and reasoning quality through both
+    quantitative and qualitative metrics.
   tags:
-  - auto
+  - metrics
+  - delivery
+  - reasoning
+  - framework
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/ai_delivery_enhancements.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_delivery_enhancements.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_delivery_enhancements.md
+  description: Document detailing enhancements to the AI-Native Delivery Framework,
+    focusing on automation, traceability, and reducing manual intervention for improved
+    project execution.
   tags:
-  - auto
+  - automation
+  - traceability
+  - delivery
+  - framework
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/ai_delivery_operating_system.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_delivery_operating_system.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_delivery_operating_system.md
+  description: Documentation on the AI-native delivery operating system, detailing
+    key components, definitions of readiness and completion, and delivery phases with
+    associated tasks and pods.
   tags:
-  - auto
+  - ai_delivery
+  - task_management
+  - documentation
+  - workflow
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/ai_native_branching.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_branching.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_native_branching.md
+  description: Documentation outlining the AI-native branching strategy for structured
+    collaboration across delivery pods, including branch naming conventions, automation
+    support, and lifecycle rules.
   tags:
-  - auto
+  - branching
+  - automation
+  - delivery
+  - git
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/ai_native_memory_access.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_memory_access.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_native_memory_access.md
+  description: Documentation on implementing a system for AI-native memory access,
+    enabling ChatGPT Pods to dynamically retrieve and reason over live GitHub files
+    using a custom Git access tool.
   tags:
-  - auto
+  - memory
+  - AI-native
+  - GitHub
+  - OpenAPI
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/docs/system/ai_native_memory_mgmt.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_memory_mgmt.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_native_memory_mgmt.md
+  description: Documentation on AI-native memory management using a structured metadata
+    index to enhance navigation and retrieval of project knowledge for GPT Pods and
+    humans.
   tags:
-  - auto
+  - memory
+  - metadata
+  - index
+  - ai-native
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/system/ai_native_task_mgmt.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/system/ai_native_task_mgmt.md
   file_type: md
-  description: Fallback summary for framework/docs/system/ai_native_task_mgmt.md
+  description: Document outlining a scalable, AI-native framework for task management
+    in software delivery, integrating multi-pod execution and GPT-based automation.
   tags:
-  - auto
+  - task management
+  - automation
+  - delivery
+  - GPT
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/tools/ai_native_delivery_plan.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/tools/ai_native_delivery_plan.md
   file_type: md
-  description: Fallback summary for framework/docs/tools/ai_native_delivery_plan.md
+  description: Document outlining the mission, plan, and status of the AI-native delivery
+    system, detailing the integration of various pods and the phases of development.
   tags:
-  - auto
+  - plan
+  - delivery
+  - pod
+  - integration
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/docs/tools/tools_catalog.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/docs/tools/tools_catalog.md
   file_type: md
-  description: Fallback summary for framework/docs/tools/tools_catalog.md
+  description: Documentation of tools for managing AI-native delivery systems, including
+    task management, memory indexing, and GitHub file operations.
   tags:
-  - auto
+  - tools
+  - delivery
+  - task management
+  - memory
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/memory_stub.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/memory_stub.yaml
   file_type: yaml
-  description: Fallback summary for framework/memory_stub.yaml
+  description: Configuration file for memory management within the AI delivery framework.
   tags:
-  - auto
+  - config
+  - memory
+  - framework
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/activate_task.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/activate_task.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/activate_task.txt
+  description: Instructions for activating a task in the DeliveryPod, including handling
+    missing prompts and documenting observations.
   tags:
-  - auto
+  - prompt
+  - task activation
+  - workflow
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/clone_task.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/clone_task.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/clone_task.txt
+  description: Instructions for using the `clone_task` tool to duplicate and customize
+    tasks in the backlog, including steps for gathering input, generating new task
+    metadata, and saving prompts.
   tags:
-  - auto
+  - prompt
+  - tool
+  - task management
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/getBatchFiles.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/getBatchFiles.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/getBatchFiles.txt
+  description: Tool for retrieving multiple files from a GitHub repository in a single
+    request.
   tags:
-  - auto
+  - tool
+  - GitHub
+  - retrieval
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/getGitHubFile.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/getGitHubFile.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/getGitHubFile.txt
+  description: Tool prompt for fetching the contents of a specific file from a GitHub
+    repository.
   tags:
-  - auto
+  - prompt
+  - tool
+  - GitHub
+  - fetch
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/get_patch.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/get_patch.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/get_patch.txt
+  description: Instructions for using the get_patch tool to fetch the contents of
+    a specific patch file.
   tags:
-  - auto
+  - prompt
+  - tool
+  - patch
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/get_task_details.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/get_task_details.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/get_task_details.txt
+  description: Instructions for fetching and validating task metadata using the get_task_details
+    tool
   tags:
-  - auto
+  - prompt
+  - metadata
+  - validation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/list_tools.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/list_tools.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/list_tools.txt
+  description: Instructions for using the list_tasks tool to manage and prioritize
+    tasks within the DeliveryPod, with filtering options for status, pod owner, and
+    category.
   tags:
-  - auto
+  - prompt
+  - task management
+  - tool
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/promote_output_files.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_output_files.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/promote_output_files.txt
+  description: Instructions for finalizing and delivering output files, including
+    prompt retrieval, reasoning documentation, and metadata creation for traceability
+    and organization.
   tags:
-  - auto
+  - delivery
+  - prompt
+  - metadata
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/promote_patch.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/promote_patch.txt
+  description: Instructions for finalizing and delivering task outputs, including
+    confirming details with a Human Lead and creating a reasoning trace.
   tags:
-  - auto
+  - prompt
+  - delivery
+  - task_management
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/promote_patch_existing_file.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch_existing_file.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/promote_patch_existing_file.txt
+  description: Instructions for generating and validating a Git diff for an updated
+    project goals file, ensuring correct syntax and hunk length before promoting the
+    patch.
   tags:
-  - auto
+  - prompt
+  - diff
+  - validation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/prompts/gpt_tools/promote_patch_new_file.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/promote_patch_new_file.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/promote_patch_new_file.txt
+  description: Instructions for generating and validating a Git-style diff for a new
+    file addition as part of a task output.
   tags:
-  - auto
+  - prompt
+  - diff
+  - git
+  - validation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/prompts/gpt_tools/update_task_metadata.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/prompts/gpt_tools/update_task_metadata.txt
   file_type: txt
-  description: Fallback summary for framework/prompts/gpt_tools/update_task_metadata.txt
+  description: Instructions for updating task metadata in a task.yaml file and preparing
+    it for review and integration into the main project repository.
   tags:
-  - auto
+  - prompt
+  - metadata
+  - update
+  - DevPod
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/clean_legacy_script.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/clean_legacy_script.py
   file_type: py
-  description: Fallback summary for framework/scripts/clean_legacy_script.py
+  description: Script to archive local patch files and delete remote Git branches
+    matching a specific pattern
   tags:
-  - auto
+  - script
+  - git
+  - cleanup
+  - archive
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/complete_task.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/complete_task.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/complete_task.sh
+  description: Script to mark a task as complete, update task metadata, generate a
+    changelog, and optionally save a reasoning trace.
   tags:
-  - auto
+  - task
+  - script
+  - changelog
+  - metadata
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/create_pr_from_patch.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/create_pr_from_patch.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/create_pr_from_patch.sh
+  description: Script to create a pull request from a patch file, handling metadata
+    extraction, branch management, and ensuring no uncommitted changes.
   tags:
-  - auto
+  - script
+  - git
+  - patch
+  - automation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/fix_git_repo.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/fix_git_repo.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/fix_git_repo.sh
+  description: Script to safely reset a git repository by stashing changes, resetting
+    to the remote main branch, and optionally removing untracked files.
   tags:
-  - auto
+  - git
+  - script
+  - repository
+  - reset
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/fix_wrong_branch_commit.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/fix_wrong_branch_commit.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/fix_wrong_branch_commit.sh
+  description: Script to fix accidental commits to the wrong branch by cherry-picking
+    the commit to the main branch and optionally resetting the original branch.
   tags:
-  - auto
+  - git
+  - script
+  - branch
+  - commit
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/generate_memory.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_memory.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/generate_memory.sh
+  description: Script to index repository files into a YAML file with auto-assigned
+    pod ownership.
   tags:
-  - auto
+  - indexing
+  - script
+  - automation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/generate_patch.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_patch.py
   file_type: py
-  description: Fallback summary for framework/scripts/generate_patch.py
+  description: Script to generate a Git patch and corresponding metadata for staged
+    changes in an AI-native task.
   tags:
-  - auto
+  - git
+  - patch
+  - metadata
+  - script
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/generate_patch_from_output.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/generate_patch_from_output.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/generate_patch_from_output.sh
+  description: Script to generate a patch file from the latest output ZIP, extract
+    metadata, and stage changes for Git.
   tags:
-  - auto
+  - script
+  - automation
+  - git
+  - metadata
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/init_repo.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/init_repo.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/init_repo.sh
+  description: Script to initialize a new project repository with standard folders
+    and files, and create a new GitHub repository if it doesn't exist.
   tags:
-  - auto
+  - repo
+  - initialization
+  - script
+  - GitHub
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/init_tasks_from_templates.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/init_tasks_from_templates.py
   file_type: py
-  description: Fallback summary for framework/scripts/init_tasks_from_templates.py
+  description: Script to initialize a master task.yaml by merging task.yaml files
+    from task_templates, setting default task properties.
   tags:
-  - auto
+  - initialization
+  - task management
+  - yaml
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/initialize_repo_structure.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/initialize_repo_structure.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/initialize_repo_structure.sh
+  description: Script to initialize the directory structure for logs, patches, outputs,
+    and prompts in the repository
   tags:
-  - auto
+  - initialize
+  - structure
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/move_branch_to_main.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/move_branch_to_main.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/move_branch_to_main.sh
+  description: Script to cherry-pick the last commit from a specified branch and apply
+    it to the main branch.
   tags:
-  - auto
+  - git
+  - script
+  - branch
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/promote_patch.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/promote_patch.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/promote_patch.sh
+  description: Script to promote a patch from the ChatGPT repository to a local Git
+    repository and create a pull request.
   tags:
-  - auto
+  - script
+  - patch
+  - git
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/prune_old_branches.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/prune_old_branches.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/prune_old_branches.sh
+  description: Script to prune stale local and remote branches related to 'chatgpt/auto/'
+    from the Git repository.
   tags:
-  - auto
+  - git
+  - automation
+  - cleanup
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/reset_conflicts.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/reset_conflicts.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/reset_conflicts.sh
+  description: Script to discard all local changes in the repository and reset to
+    a clean state
   tags:
-  - auto
+  - script
+  - git
+  - reset
+  - cleanup
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/setup_ai_delivery.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/setup_ai_delivery.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/setup_ai_delivery.sh
+  description: Script to set up GitHub Actions for automating the application of patch
+    files in an AI-native delivery process.
   tags:
-  - auto
+  - automation
+  - github-actions
+  - delivery
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/scripts/sync_with_main.sh
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/sync_with_main.sh
   file_type: sh
-  description: Fallback summary for framework/scripts/sync_with_main.sh
+  description: Script to synchronize local repository changes with the remote 'main'
+    branch using git.
   tags:
-  - auto
+  - git
+  - sync
+  - script
+  - version-control
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/scripts/validate_patch.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/scripts/validate_patch.py
   file_type: py
-  description: Fallback summary for framework/scripts/validate_patch.py
+  description: Script to validate that mandatory directories are updated in a git
+    patch before delivery.
   tags:
-  - auto
+  - validation
+  - git
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task.yaml
+  description: Configuration file defining various tasks for updating, activating,
+    cloning, and creating tasks, as well as indexing and adding to memory, primarily
+    for the DeliveryPod and DevPod.
   tags:
-  - auto
+  - task
+  - config
+  - delivery
+  - infra
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.10_summary_metrics/summary_metrics_prompt.txt
+  description: Prompt template for summarizing reasoning traces in AI delivery tasks.
   tags:
-  - auto
+  - prompt
+  - summary
+  - reasoning
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.11_summarize_reasoning/summary_reasoning_prompt.txt
+  description: Prompt template for summarizing reasoning traces in AI delivery tasks.
   tags:
-  - auto
+  - prompt
+  - summary
+  - reasoning
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.1_update_task_metadata/prompt_template.txt
+  description: Instructions for using a tool to update task metadata in a task.yaml
+    file for human review.
   tags:
-  - auto
+  - prompt
+  - metadata
+  - update
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.1_update_task_metadata/task.yaml
+  description: Template for updating metadata fields of an existing task in the delivery
+    process
   tags:
-  - auto
+  - template
+  - metadata
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.2_activate_task/prompt_template.txt
+  description: Instructions for activating a specific task in the delivery process,
+    including fetching associated prompts and preparing output files for handoff.
   tags:
-  - auto
+  - prompt
+  - delivery
+  - task activation
+  - workflow
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.2_activate_task/task.yaml
+  description: Template for activating a task, changing its status, and retrieving
+    its prompt file for patch generation.
   tags:
-  - auto
+  - template
+  - task
+  - ops
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.3_clone_task/task.yaml
+  description: Template for cloning an existing task in the backlog with optional
+    metadata updates.
   tags:
-  - auto
+  - template
+  - delivery_ops
+  - task_management
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.4_create_new_task/prompt_template.txt
+  description: Instructions for creating a new task in the backlog, including gathering
+    information from a Human Lead and generating task parameters.
   tags:
-  - auto
+  - task creation
+  - prompt
+  - workflow
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.4_create_new_task/task.yaml
+  description: Template for creating a new task from scratch, including prompts and
+    outputs.
   tags:
-  - auto
+  - template
+  - task
+  - prompt
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.5_index_memory/index_memory_prompt.txt
+  description: Instructions for indexing project files into a memory.yaml using the
+    index_memory tool and updating the repository with promote_patch.
   tags:
-  - auto
+  - indexing
+  - memory
+  - framework
+  - repository
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.5_index_memory/task.yaml
+  description: Task template for indexing project files to generate memory.yaml in
+    the Cross-Phase category.
   tags:
-  - auto
+  - template
+  - index
+  - infra
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.6_memory_diff/memory_diff_prompt.txt
+  description: Instructions for using the memory_diff tool to detect and propose additions
+    for missing files in memory.yaml, ensuring synchronization with the GitHub repository.
   tags:
-  - auto
+  - prompt
+  - tool
+  - synchronization
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.7_add_to_memory/add_to_memory_prompt.txt
+  description: Instructions for adding files to the memory.yaml index with metadata
+    and promoting updates to GitHub.
   tags:
-  - auto
+  - prompt
+  - flow
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.7_add_to_memory/task.yaml
+  description: Task template for adding new files into memory.yaml during the Cross-Phase.
   tags:
-  - auto
+  - template
+  - infra
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.8_validate_memory_file_exists/validate_memory_file_exists_prompt.txt
+  description: Instructions for validating the existence of file paths in a project's
+    memory system using a specific tool.
   tags:
-  - auto
+  - prompt
+  - validation
+  - memory
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
   file_type: txt
-  description: Fallback summary for framework/task_templates/Cross-Phase/0.9_search_memory/search_memory_prompt.txt
+  description: Instructions for using the search_memory tool to find related files
+    in project memory for task context and reuse.
   tags:
-  - auto
+  - prompt
+  - tool
+  - memory
+  - search
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Cross-Phase/handoff_notes_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/handoff_notes_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Cross-Phase/handoff_notes_template.md
+  description: Template for documenting handoff notes including scope, assumptions,
+    risks, and recommendations for future work.
   tags:
-  - auto
+  - template
+  - documentation
+  - handoff
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Cross-Phase/reasoning_log_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Cross-Phase/reasoning_log_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Cross-Phase/reasoning_log_template.md
+  description: Template for documenting reasoning processes, alternative ideas, and
+    scoring in task execution.
   tags:
-  - auto
+  - template
+  - reasoning
+  - scoring
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/1.1_project_goals_task_pack.md
+  description: This file contains a task template for capturing and summarizing the
+    goals of a project, detailing the purpose, intended impact, and the process for
+    refining project goals documentation.
   tags:
-  - auto
+  - template
+  - prompt
+  - task
+  - DevPod
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/memory.yaml
+  description: Template for capturing and documenting project goals during the discovery
+    phase.
   tags:
-  - auto
+  - template
+  - project_goals
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/output_example/project_goals.md
+  description: Document outlining the goals for an AI-powered form assistant project
+    focused on sports concussions.
   tags:
-  - auto
+  - project
+  - goals
+  - AI
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_complex.md
+  description: Template for capturing and summarizing project goals with detailed
+    metadata for each goal.
   tags:
-  - auto
+  - prompt
+  - template
+  - goals
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/prompt_template_simple.md
+  description: Template for capturing and summarizing project goals, including defining
+    clear objectives and identifying potential gaps.
   tags:
-  - auto
+  - prompt
+  - template
+  - project
+  - goals
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.1_capture_project_goals/task.yaml
+  description: Task template for capturing and summarizing project goals during the
+    discovery phase.
   tags:
-  - auto
+  - template
+  - discovery
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/memory.yaml
+  description: Contains templates and markdown files detailing user roles, app walkthroughs,
+    delivery flows, and AI delivery operating systems, focusing on user interactions
+    and SDLC phases.
   tags:
-  - auto
+  - template
+  - user_flows
+  - delivery_flow
+  - sdlc
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/prompt_template.md
+  description: Template for defining and documenting user and delivery flows, including
+    user roles, journeys, and delivery processes.
   tags:
-  - auto
+  - prompt
+  - flow
+  - user
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.2_define_user_flows/task.yaml
+  description: Task template for defining and capturing user and delivery flows during
+    the discovery phase.
   tags:
-  - auto
+  - template
+  - flow
+  - discovery
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/memory.yaml
+  description: Configuration file for defining templates related to user roles, project
+    goals, and application walkthroughs in the discovery phase of feature decomposition.
   tags:
-  - auto
+  - template
+  - config
+  - user_flows
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/prompt_template.md
+  description: Template for decomposing project scope into features, including detailed
+    metadata and context for each feature.
   tags:
-  - auto
+  - prompt
+  - template
+  - features
+  - decomposition
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.3_decompose_features/task.yaml
+  description: Task template for analyzing project scope and decomposing it into features,
+    experiments, or hypotheses during the discovery phase.
   tags:
-  - auto
+  - template
+  - discovery
+  - prompt
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/memory.yaml
+  description: Configuration file for managing feature descriptions and acceptance
+    criteria documentation.
   tags:
-  - auto
+  - config
+  - features
+  - acceptance_criteria
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/prompt_template.md
+  description: Template for writing and refining acceptance criteria based on feature
+    specifications and QA matrix.
   tags:
-  - auto
+  - prompt
+  - qa
+  - acceptance_criteria
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.4_write_acceptance_criteria/task.yaml
+  description: Task template for writing or refining acceptance criteria based on
+    feature specifications and QA matrix.
   tags:
-  - auto
+  - template
+  - discovery
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/memory.yaml
+  description: Configuration template for managing research spike documentation within
+    the AI delivery framework.
   tags:
-  - auto
+  - template
+  - research
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/prompt_template.md
+  description: Template for conducting research spikes to investigate open questions,
+    document findings, and provide recommendations within the ResearchPod.
   tags:
-  - auto
+  - prompt
+  - research
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.5_research_spikes/task.yaml
+  description: Task template for conducting research spikes to address unresolved
+    questions or tool comparisons during the discovery phase.
   tags:
-  - auto
+  - template
+  - research
+  - discovery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/memory.yaml
+  description: Configuration file defining architecture templates and standards documentation
+    for AI delivery projects.
   tags:
-  - auto
+  - architecture
+  - template
+  - standards
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/prompt_template.md
+  description: Template for defining solution architecture and engineering standards,
+    including documentation guidelines for architecture diagrams, component details,
+    data flow, AI-specific concerns, and project standards.
   tags:
-  - auto
+  - prompt
+  - architecture
+  - standards
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.6_define_architecture/task.yaml
+  description: Task template for drafting initial solution architecture and coding
+    or design standards in the discovery phase.
   tags:
-  - auto
+  - template
+  - architecture
+  - discovery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase1_discovery/1.7_summarize_feedback/task.yaml
+  description: Task template for summarizing chat feedback, discussion notes, and
+    key decisions during the discovery phase.
   tags:
-  - auto
+  - template
+  - discovery
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/discovery_tasks1.2-1.4_pack.md
+  description: Standardized task templates for Discovery Phase tasks 1.2 to 1.4, including
+    defining user and delivery flows, breaking work into features, and writing acceptance
+    criteria.
   tags:
-  - auto
+  - template
+  - discovery
+  - flow
+  - features
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase1_discovery/discovery_tasks1.5-1.7_pack.md
+  description: This file contains standardized task templates for the final Discovery
+    Phase tasks (1.5 to 1.7), including research spikes, solution architecture definition,
+    and feedback summary.
   tags:
-  - auto
+  - template
+  - discovery
+  - task
+  - architecture
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/memory.yaml
+  description: Template file outlining project goals, feature lists, pod assignments,
+    technical specifications, and QA acceptance criteria for Phase 2 development.
   tags:
-  - auto
+  - template
+  - planning
+  - specs
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/prompt_template.md
+  description: Template for drafting detailed technical specifications for features,
+    including metadata, functional overview, architecture alignment, UI/UX considerations,
+    and development standards.
   tags:
-  - auto
+  - prompt
+  - design
+  - specification
+  - DevPod
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.1_design_feature/task.yaml
+  description: Template for drafting detailed technical specifications for assigned
+    features during Phase 2 of development.
   tags:
-  - auto
+  - template
+  - dev
+  - prompt
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/memory.yaml
+  description: Template file outlining project goals, feature lists, pod assignments,
+    technical specifications, and QA acceptance criteria for Phase 2 development.
   tags:
-  - auto
+  - template
+  - planning
+  - development
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/prompt_template.md
+  description: Instructions and guidelines for DevPod to build a feature based on
+    an approved tech spec, test it, and generate a patch.
   tags:
-  - auto
+  - prompt
+  - feature
+  - development
+  - patch
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.2_build_feature/task.yaml
+  description: Task template for building a feature, including implementation, testing,
+    and patch generation based on an approved specification.
   tags:
-  - auto
+  - development
+  - template
+  - build
+  - patch
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/memory.yaml
+  description: Template file outlining project goals, feature lists, pod assignments,
+    technical specifications, and QA acceptance criteria for Phase 2 development.
   tags:
-  - auto
+  - template
+  - planning
+  - specs
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/prompt_template.md
+  description: Template for conducting QA review and testing of a feature, including
+    creating test plans, defining test cases, performing QA reviews, running tests,
+    and documenting results.
   tags:
-  - auto
+  - qa
+  - testing
+  - prompt
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.3_QA_feature/task.yaml
+  description: Task template for QA review of a feature, including test plan creation,
+    execution, and documentation of results.
   tags:
-  - auto
+  - qa
+  - template
+  - test plan
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/memory.yaml
+  description: Template for managing QA test results and feature specifications related
+    to bug fixes in Phase 2 development.
   tags:
-  - auto
+  - template
+  - qa
+  - bugfix
+  - spec
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/prompt_template.md
+  description: Template for addressing and fixing bugs identified during QA review,
+    including instructions for code updates, test modifications, and patch generation.
   tags:
-  - auto
+  - prompt
+  - bug-fix
+  - development
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4a_fix_bugs/task.yaml
+  description: Task template for fixing bugs identified during QA, including code
+    updates, test validation, and spec updates.
   tags:
-  - auto
+  - template
+  - dev
+  - bugfix
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/memory.yaml
+  description: Template for logging QA retest results and maintaining acceptance criteria
+    documentation.
   tags:
-  - auto
+  - template
+  - qa
+  - retest
+  - acceptance_criteria
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/prompt_template.md
+  description: Template for retesting features after bug fixes, including instructions
+    for re-executing tests, validating new coverage, and updating QA artifacts.
   tags:
-  - auto
+  - prompt
+  - qa
+  - retest
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.4b_retest_fixes/task.yaml
+  description: Task template for re-testing failed or blocked test cases after fixes,
+    updating QA results, and confirming bug resolution.
   tags:
-  - auto
+  - qa
+  - retest
+  - fixes
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/memory.yaml
+  description: Template for managing QA feedback logs and research specification references
+    for development tasks.
   tags:
-  - auto
+  - template
+  - feedback
+  - research
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/prompt_template.md
+  description: Template for conducting research on unresolved technical or domain-specific
+    questions, documenting findings, and proposing follow-up actions.
   tags:
-  - auto
+  - prompt
+  - research
+  - documentation
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase2_development/2.5_research_support/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.5_research_support/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.5_research_support/task.yaml
+  description: Template for assisting research tasks by investigating and summarizing
+    findings on unresolved questions during the development phase.
   tags:
-  - auto
+  - template
+  - research
+  - development
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/memory.yaml
+  description: Configuration file for managing delivery metrics and sprint feedback
+    for agile processes
   tags:
-  - auto
+  - metrics
+  - feedback
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/prompt_template.md
+  description: Template for facilitating agile rituals, capturing metrics, and logging
+    process feedback within the WoWPod.
   tags:
-  - auto
+  - prompt
+  - agile
+  - metrics
+  - feedback
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.6_run_agile/task.yaml
+  description: Task template for facilitating agile rituals, analyzing velocity and
+    task completion data, and updating delivery metrics.
   tags:
-  - auto
+  - template
+  - agile
+  - metrics
+  - dev
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/memory.yaml
+  description: Configuration file for deployment specifications and patch details
+    used in Phase 2 development deployment guides.
   tags:
-  - auto
+  - deployment
+  - config
+  - patch
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/prompt_template.md
+  description: Template for creating a deployment guide, detailing steps, configurations,
+    and dependencies for deploying features to various environments.
   tags:
-  - auto
+  - prompt
+  - deployment
+  - guide
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase2_development/2.7_prep_deploy_guide/task.yaml
+  description: Task template for creating a deployment guide, detailing environments,
+    configuration, tooling, and deployment steps for a feature set.
   tags:
-  - auto
+  - template
+  - deployment
+  - guide
+  - dev
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/dev_tasks2.1-2.3_package.md
+  description: This file contains standardized task templates for Iterative Development
+    Phase tasks 2.1 to 2.3, detailing the processes for designing features, building
+    and testing patches, and performing QA reviews.
   tags:
-  - auto
+  - template
+  - development
+  - qa
+  - process
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase2_development/dev_tasks2.4-2.7_package.md
+  description: This file contains standardized task templates, memory entries, and
+    prompt templates for Iterative Development Phase tasks 2.4 to 2.8, focusing on
+    bug fixing and retesting processes.
   tags:
-  - auto
+  - task
+  - template
+  - prompt
+  - dev
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/memory.yaml
+  description: Configuration file for defining the feature list and acceptance criteria
+    for Phase 3 end-to-end testing.
   tags:
-  - auto
+  - config
+  - e2e
+  - testing
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/prompt_template.md
+  description: Template for defining a comprehensive end-to-end test plan, including
+    user flows, edge cases, and integration points.
   tags:
-  - auto
+  - prompt
+  - e2e
+  - test plan
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.1_e2e_test_plan/task.yaml
+  description: Task template for defining a comprehensive end-to-end test plan, including
+    user flows, edge cases, and systems integration.
   tags:
-  - auto
+  - e2e
+  - test plan
+  - qa
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/memory.yaml
+  description: Configuration for executing end-to-end tests with memory considerations
+    in Phase 3.
   tags:
-  - auto
+  - e2e
+  - test
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/prompt_template.md
+  description: Template for executing end-to-end test scenarios, logging results,
+    and documenting issues encountered.
   tags:
-  - auto
+  - prompt
+  - e2e
+  - test
+  - execution
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.2_e2e_test_execution/task.yaml
+  description: Task template for executing end-to-end test scenarios, logging results,
+    and noting failures or inconsistencies.
   tags:
-  - auto
+  - e2e
+  - testing
+  - qa
+  - task
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/memory.yaml
+  description: Configuration for managing and documenting end-to-end test results
+    and bug fixes in Phase 3.
   tags:
-  - auto
+  - e2e
+  - config
+  - test_results
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/prompt_template.md
+  description: Template for fixing bugs identified during end-to-end testing, including
+    instructions for updating code, documentation, and test coverage.
   tags:
-  - auto
+  - prompt
+  - e2e
+  - bug-fix
+  - DevPod
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.3_e2e_fix_bugs/task.yaml
+  description: Task template for addressing issues found during end-to-end testing,
+    including updating code, tests, and documentation.
   tags:
-  - auto
+  - e2e
+  - bug-fix
+  - template
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/memory.yaml
+  description: Configuration file for managing end-to-end test results and demo highlights
+    in markdown format.
   tags:
-  - auto
+  - config
+  - e2e
+  - demo
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/prompt_template.md
+  description: Template for coordinating and documenting an end-to-end walkthrough
+    or demo session, including reviewing test outcomes and planning the demo agenda.
   tags:
-  - auto
+  - prompt
+  - demo
+  - e2e
+  - documentation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.4_e2e_demo/task.yaml
+  description: Task template for organizing and documenting an end-to-end demo of
+    key app workflows in Phase 3 testing
   tags:
-  - auto
+  - e2e
+  - template
+  - workflow
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/memory.yaml
+  description: Configuration file for managing end-to-end test results and quality
+    metrics related to memory usage in Phase 3 testing.
   tags:
-  - auto
+  - config
+  - metrics
+  - quality
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/prompt_template.md
+  description: Template for generating a report on final quality metrics after end-to-end
+    testing.
   tags:
-  - auto
+  - prompt
+  - metrics
+  - report
+  - e2e
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/3.5_e2e_report/task.yaml
+  description: Task template for finalizing quality metrics during Phase 3 of end-to-end
+    testing, including tracking unresolved issues and summarizing test coverage and
+    defects.
   tags:
-  - auto
+  - e2e
+  - metrics
+  - delivery
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase3_e2e_test/phase3_task_pack.md
+  description: This file contains templates and instructions for defining and executing
+    end-to-end (E2E) test plans and scenarios as part of Phase 3 testing, focusing
+    on comprehensive user flows and system integration.
   tags:
-  - auto
+  - e2e
+  - testing
+  - template
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/memory.yaml
+  description: Template for a deployment guide used in creating a cutover plan for
+    go-live phases
   tags:
-  - auto
+  - template
+  - deployment
+  - release
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/prompt_template.md
+  description: Template for creating a cutover plan, including a checklist and timeline
+    for go-live tasks.
   tags:
-  - auto
+  - prompt
+  - delivery
+  - plan
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.1_cutover_plan/task.yaml
+  description: Template for creating a cutover plan and go-live checklist, detailing
+    responsibilities and risks for the delivery phase.
   tags:
-  - auto
+  - template
+  - delivery
+  - cutover
+  - plan
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/memory.yaml
+  description: Configuration for executing smoke tests using end-to-end test scenarios
+    in production
   tags:
-  - auto
+  - qa
+  - smoke
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/prompt_template.md
+  description: Template for conducting final smoke tests to ensure deployment readiness
+    in production.
   tags:
-  - auto
+  - prompt
+  - smoke test
+  - validation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.2_smoke_test/task.yaml
+  description: Task template for executing critical smoke tests in the production
+    environment to confirm readiness for go-live.
   tags:
-  - auto
+  - template
+  - smoke test
+  - go-live
+  - qa
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/memory.yaml
+  description: Template for the final go-live sequence checklist, including rollback
+    and deployment checks
   tags:
-  - auto
+  - template
+  - deployment
+  - production
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/prompt_template.md
+  description: Template for executing deployment steps into production, following
+    the cutover checklist.
   tags:
-  - auto
+  - prompt
+  - deployment
+  - production
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.3_deploy_prod/task.yaml
+  description: Task template for deploying the application into production as part
+    of the go-live phase.
   tags:
-  - auto
+  - deployment
+  - production
+  - template
+  - cutover
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/memory.yaml
+  description: Template for logging go-live deployment details and communication transitions.
   tags:
-  - auto
+  - template
+  - deployment
+  - communication
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/prompt_template.md
+  description: Template for announcing the go-live milestone and transitioning responsibilities,
+    including summarizing release highlights and clarifying ownership.
   tags:
-  - auto
+  - prompt
+  - communication
+  - release
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.4_communicate_transition/task.yaml
+  description: Task template for communicating the transition during the go-live phase,
+    including notifying stakeholders and outlining changes.
   tags:
-  - auto
+  - task
+  - template
+  - communication
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/memory.yaml
+  description: Template for logging deployment sequences for post-mortem reviews during
+    go-live retrospectives
   tags:
-  - auto
+  - template
+  - retrospective
+  - deployment
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/prompt_template.md
+  description: Template for facilitating a go-live retrospective and documenting stabilization
+    feedback.
   tags:
-  - auto
+  - prompt
+  - template
+  - go-live
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
   file_type: yaml
-  description: Fallback summary for framework/task_templates/Phase4_go-live/4.5_retro_stabilize/task.yaml
+  description: Task template for facilitating a retrospective to capture stabilization
+    issues or learnings post go-live.
   tags:
-  - auto
+  - template
+  - go-live
+  - retrospective
+  - stabilization
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
   file_type: md
-  description: Fallback summary for framework/task_templates/Phase4_go-live/phase4_go-live_task_pack.md
+  description: This file contains task templates for Phase 4 of the project, focusing
+    on Cutover and Go Live activities. It includes detailed instructions for creating
+    a cutover checklist and plan, as well as executing final smoke tests in the production
+    environment.
   tags:
-  - auto
+  - task
+  - template
+  - deployment
+  - go-live
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/.env.local
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.env.local
   file_type: local
-  description: Fallback summary for project/.env.local
+  description: Configuration file specifying the base URL for the FastAPI server
   tags:
-  - auto
+  - config
+  - server
+  - fastapi
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/.gitignore
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.gitignore
   file_type: gitignore
-  description: Fallback summary for project/.gitignore
+  description: Configuration file specifying files and directories to be ignored by
+    Git version control
   tags:
-  - auto
+  - git
+  - config
+  - ignore
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/.gitkeep
+  description: Placeholder file to ensure the directory is tracked by Git
   tags:
-  - auto
+  - git
+  - repository
+  - version control
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: null
 - path: project/__init__.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/__init__.py
   file_type: py
-  description: Fallback summary for project/__init__.py
+  description: Initialization script for the project package, setting up module imports
+    and configurations
   tags:
-  - auto
+  - init
+  - config
+  - module
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/app/BracketDisplay.jsx
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/app/BracketDisplay.jsx
   file_type: jsx
-  description: Fallback summary for project/app/BracketDisplay.jsx
+  description: React component to display tournament bracket results and notify when
+    a champion is determined
   tags:
-  - auto
+  - component
+  - display
+  - react
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/app/SimulatePage.jsx
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/app/SimulatePage.jsx
   file_type: jsx
-  description: Fallback summary for project/app/SimulatePage.jsx
+  description: Component for simulating NHL playoffs, displaying results, and determining
+    the champion.
   tags:
-  - auto
+  - simulation
+  - component
+  - UI
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/__init__.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/__init__.py
   file_type: py
-  description: Fallback summary for project/backend/__init__.py
+  description: Initialization file for the backend module, setting up package imports
+    and configurations
   tags:
-  - auto
+  - backend
+  - init
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/bracket/__init__.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/bracket/__init__.py
   file_type: py
-  description: Fallback summary for project/backend/bracket/__init__.py
+  description: Initialization file for the bracket module in the backend project,
+    setting up necessary imports and configurations.
   tags:
-  - auto
+  - backend
+  - init
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/bracket/playoff_bracket.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/bracket/playoff_bracket.yaml
   file_type: yaml
-  description: Fallback summary for project/backend/bracket/playoff_bracket.yaml
+  description: Configuration file detailing the playoff bracket structure for a hockey
+    tournament, including team matchups and progression through rounds.
   tags:
-  - auto
+  - config
+  - sports
+  - tournament
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/backend/fastapi_server.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/fastapi_server.py
   file_type: py
-  description: Fallback summary for project/backend/fastapi_server.py
+  description: FastAPI server script for simulating playoff brackets using a simulation
+    engine and CORS middleware.
   tags:
-  - auto
+  - backend
+  - fastapi
+  - api
+  - simulation
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/requirements.txt
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/requirements.txt
   file_type: txt
-  description: Fallback summary for project/backend/requirements.txt
+  description: List of dependencies required for the backend development and testing
+    environment
   tags:
-  - auto
+  - dependencies
+  - backend
+  - config
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/simulator/__init__.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/simulator/__init__.py
   file_type: py
-  description: Fallback summary for project/backend/simulator/__init__.py
+  description: Initialization script for the simulator module in the backend project
   tags:
-  - auto
+  - simulator
+  - backend
+  - init
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/backend/simulator/simulation_engine.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/backend/simulator/simulation_engine.py
   file_type: py
-  description: Fallback summary for project/backend/simulator/simulation_engine.py
+  description: Script to simulate playoff series outcomes based on team matchups and
+    previous results.
   tags:
-  - auto
+  - simulation
+  - playoffs
+  - prediction
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: project/compile_chain_of_thoughts.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/compile_chain_of_thoughts.py
   file_type: py
-  description: Fallback summary for project/compile_chain_of_thoughts.py
+  description: Script to locate and compile chain of thought YAML files from project
+    outputs into a single file
   tags:
-  - auto
+  - compilation
+  - yaml
+  - flow
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: ResearchPod
 - path: project/data/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/data/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/data/.gitkeep
+  description: Placeholder file to ensure the 'data' directory is tracked by Git
   tags:
-  - auto
+  - git
+  - repository
+  - data
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/docs/onboarding_guide.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/onboarding_guide.md
   file_type: md
-  description: Fallback summary for project/docs/onboarding_guide.md
+  description: Guide for onboarding new users to the AI-Native Delivery System, detailing
+    system operations, repo structure, and AI Pod roles.
   tags:
-  - auto
+  - onboarding
+  - delivery
+  - pods
+  - system
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/docs/onboarding_guide_simple.md
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/docs/onboarding_guide_simple.md
   file_type: md
-  description: Fallback summary for project/docs/onboarding_guide_simple.md
+  description: A non-technical guide for understanding and participating in the AI
+    Delivery System, detailing the roles of AI Pods and the phases of project delivery.
   tags:
-  - auto
+  - onboarding
+  - guide
+  - delivery
+  - AI
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/logs/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/logs/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/logs/.gitkeep
+  description: Placeholder file to ensure the logs directory is tracked by Git
   tags:
-  - auto
+  - git
+  - logs
+  - repository
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/memory.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/memory.yaml
   file_type: yaml
-  description: Fallback summary for project/memory.yaml
+  description: This file contains metadata and fallback summaries for various documentation
+    files related to bugs, deployment, features, user journeys, and project goals
+    within the project.
   tags:
-  - auto
+  - documentation
+  - metadata
+  - bugs
+  - deployment
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/notebooks/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/notebooks/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/notebooks/.gitkeep
+  description: Placeholder file to ensure the 'notebooks' directory is tracked by
+    Git
   tags:
-  - auto
+  - git
+  - directory
+  - placeholder
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/package.json
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/package.json
   file_type: json
-  description: Fallback summary for project/package.json
+  description: Configuration file for managing dependencies and scripts for a Next.js
+    project
   tags:
-  - auto
+  - config
+  - dependencies
+  - scripts
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/pages/api/simulate.js
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/pages/api/simulate.js
   file_type: js
-  description: Fallback summary for project/pages/api/simulate.js
+  description: API endpoint to forward POST requests to a FastAPI server for simulation.
   tags:
-  - auto
+  - api
+  - simulate
+  - integration
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/pages/index.js
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/pages/index.js
   file_type: js
-  description: Fallback summary for project/pages/index.js
+  description: Main entry point for rendering the SimulatePage component in the application
   tags:
-  - auto
+  - component
+  - render
+  - page
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/src/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/src/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/src/.gitkeep
+  description: Placeholder file to ensure the directory is tracked by Git
   tags:
-  - auto
+  - git
+  - repository
+  - version control
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DevPod
 - path: project/styles/globals.css
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/styles/globals.css
   file_type: css
-  description: Fallback summary for project/styles/globals.css
+  description: Global CSS styles for consistent typography, layout, and animations
+    across the project
   tags:
-  - auto
+  - styles
+  - css
+  - layout
+  - animations
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/task.yaml
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/task.yaml
   file_type: yaml
-  description: Fallback summary for project/task.yaml
+  description: This file contains metadata and configuration for various tasks related
+    to project management, operations, and infrastructure, primarily handled by the
+    DeliveryPod with some tasks under DevPod.
   tags:
-  - auto
+  - task_management
+  - config
+  - delivery
+  - infrastructure
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: DeliveryPod
 - path: project/test/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/test/.gitkeep
   file_type: gitkeep
-  description: Fallback summary for project/test/.gitkeep
+  description: Placeholder file to ensure the presence of the test directory in version
+    control
   tags:
-  - auto
+  - git
+  - version-control
+  - placeholder
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: project/tests/test_fastapi_server.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_fastapi_server.py
   file_type: py
-  description: Fallback summary for project/tests/test_fastapi_server.py
+  description: Test cases for validating the simulate endpoint of the FastAPI server.
   tags:
-  - auto
+  - test
+  - fastapi
+  - endpoint
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: project/tests/test_simulate_api.js
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_simulate_api.js
   file_type: js
-  description: Fallback summary for project/tests/test_simulate_api.js
+  description: Unit tests for the simulate API endpoint to ensure correct bracket
+    simulation
   tags:
-  - auto
+  - test
+  - api
+  - simulate
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
 - path: project/tests/test_simulation_engine.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_simulation_engine.py
   file_type: py
-  description: Fallback summary for project/tests/test_simulation_engine.py
+  description: Unit test for the simulation engine's playoff simulation functionality,
+    verifying correct bracket progression and winner determination.
   tags:
-  - auto
+  - testing
+  - simulation
+  - playoffs
   last_updated: '2025-05-02'
-  pod_owner: ''
+  pod_owner: QAPod
