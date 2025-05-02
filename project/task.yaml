@@ -697,5 +697,6 @@ tasks:
     done: false
     instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
     prompt: framework/task_templates/qa/test_task_lifecycle/prompt_template.md
-    status: planned
-    updated_at: null
+    status: in_progress
+    updated_at: '2025-05-02T10:43:02.871669'
+    prompt_used: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
