@@ -22,10 +22,11 @@
   detail: /memory/manage with action=index reports 'Memory indexed with X entries'
     regardless of change. In our case, it said 38 entries even though no files existed
     in the specified path.
-  suggested_fix: null
+  suggested_fix: Revised /memory/manage index response to return total and new entries;
+    clarified background execution; fixed misleading success message.
   tags:
   - memory
   - usability
   - indexing
-  status: open
+  status: closed
   timestamp: '2025-05-02T04:22:50.591529'
