@@ -181,3 +181,19 @@
   - bug
   status: closed
   timestamp: '2025-05-02T11:25:27.890180'
+- type: bug
+  scope: framework
+  issue_id: 7ea0a3d9-5620-4bb6-bc6e-3c77f45e2a96
+  task_id: null
+  title: Reasoning summary fabricated when no data present
+  detail: The reasoning_summary text field in /system/metrics was returned even when
+    no thoughts existed. This was hallucinated text. Patch now suppresses summary
+    when no trace data is found.
+  suggested_fix: Reasoning summary is now only generated if thoughts exist. Otherwise
+    returns 'No reasoning trace available'.
+  tags:
+  - metrics
+  - summary
+  - bug
+  status: closed
+  timestamp: '2025-05-02T11:25:36.723759'
