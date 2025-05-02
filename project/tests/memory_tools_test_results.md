@@ -1,6 +1,6 @@
 ## 🧪 Memory Tools QA: Test Results Summary
 
-### ✅ Overview
+### ✅ Overview  
 This document tracks test scenarios and outcomes for memory-related tools in the `nhl-predictor` repo. It is updated as bugs are found, fixed, and re-tested.
 
 ---
@@ -21,10 +21,10 @@ This document tracks test scenarios and outcomes for memory-related tools in the
   }]
 }
 ```
-**Initial Result:** ✅ `200 OK`, but entry not visible in memory index or updatable. 
-**Issue Logged:** ✔️ `20160501-001` - Silent failure when file missing in GitHub.
-**Fix Applied:** System now validates file presence before 200 OK.
-**Re-Test:** Pending re-add for verification.
+**Initial Result:** ✅ `200 OK`, but entry not visible in memory index or updatable.  
+**Issue Logged:** ✔️ `20160501-001` - Silent failure when file missing in GitHub.  
+**Fix Applied:** System now validates file presence before 200 OK.  
+**Re-Test:** ✅ README.md added successfully with LLM metadata.
 
 ---
 
@@ -37,11 +37,11 @@ This document tracks test scenarios and outcomes for memory-related tools in the
   "base_paths": ["framework/", "project/"]
 }
 ```
-**Initial Result:** ❌ Error due to timeout / processing delay. Assumed failure.
-**Observed:** GitHub memory.yaml eventually updated with 235 entries.
-**Issue Logged:** ✔️ `20160501-002` - Misleading success message.
-**Fix Applied:** Now async + returns entry totals.
-**Re-Test:** System message now indicates background indexing.
+**Initial Result:** ❌ Error due to timeout / processing delay. Assumed failure.  
+**Observed:** GitHub memory.yaml eventually updated with 235 entries.  
+**Issue Logged:** ✔️ `20160501-002` - Misleading success message.  
+**Fix Applied:** Now async + returns entry totals.  
+**Re-Test:** ✅ System message reflects background indexing.
 
 ---
 
@@ -59,13 +59,20 @@ This document tracks test scenarios and outcomes for memory-related tools in the
   "pod_owner": "WriterPod"
 }
 ```
-**Result:** ❌ "Path not found in memory"
-**Next Step:** Re-check if `README.md` is indexed; if not, retry `add`.
+**Result:** ✅ Successfully updated entry
 
 ---
 
 #### 4. Action: `remove`
-*(Planned after update success)*
+**Input:**
+```json
+{
+  "repo_name": "nhl-predictor",
+  "path": "README.md",
+  "action": "remove"
+}
+```
+**Result:** ✅ Successfully removed entry
 
 ---
 
