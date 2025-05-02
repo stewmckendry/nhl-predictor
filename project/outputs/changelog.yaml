@@ -28,3 +28,8 @@
   task_id: null
   committed_by: GPTPod
   message: Log <class 'type'> in framework scope
+- timestamp: '2025-05-02T11:07:25.796402'
+  path: .logs/issues/framework.yaml
+  task_id: null
+  committed_by: GPTPod
+  message: Log <class 'type'> in framework scope
