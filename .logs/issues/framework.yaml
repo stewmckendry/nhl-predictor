@@ -121,3 +121,18 @@
   - lifecycle
   status: closed
   timestamp: '2025-05-02T11:07:33.286416'
+- type: enhancement
+  scope: framework
+  issue_id: 3f299245-ad68-4849-8944-e07988af6ff1
+  task_id: null
+  title: Auto-generate task_id on create
+  detail: Recommend enforcing task_id generation if not provided in create requests.
+    This ensures downstream calls like activate/start/complete can proceed without
+    error.
+  suggested_fix: null
+  tags:
+  - task
+  - create
+  - enhancement
+  status: open
+  timestamp: '2025-05-02T11:07:40.820482'
