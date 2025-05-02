@@ -696,10 +696,19 @@ tasks:
   test_task_lifecycle-eb3424:
     assigned_pod: QAPod
     created_at: '2025-05-02T10:42:50.257515'
-    done: true
+    description: Lifecycle test task for validating core task flow
+    done: false
+    inputs:
+    - phase
+    - task_key
+    - assigned_pod
     instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
+    outputs:
+    - output file
+    - reasoning_trace
     pod_owner: GPTPod
-    prompt: framework/task_templates/qa/test_task_lifecycle/prompt_template.md
+    prompt: Test prompt lifecycle coverage
     prompt_used: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
+    ready: true
     status: in_progress
-    updated_at: '2025-05-02T10:54:29.051231'
+    updated_at: '2025-05-02T10:58:14.090750'
