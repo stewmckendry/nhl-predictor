@@ -1,49 +1,37 @@
-## 🛠️ System & Utility Tools QA: Test Results Summary
+## 🛠️ System & Utility Tools QA: Branching Regression Results
 
 ### ✅ Overview
-Tests core utilities including metrics, changelog, fetch, rollback, and action discovery endpoints.
+Validated core system utilities on sandbox branch `sandbox-ancient-eagle`
 
 ---
 
 ### 📂 Tool: `/system/metrics`
-#### 1. Mode: `summary`
-✅ Returned correct task totals and qualitative scores after patch
-- Avg Thought Quality: 4.11
-- Recall Usage: 100%
-- Novelty Rate: 88.9%
-
-#### 2. Mode: `export`
-✅ Returns 9 task-level reasoning trace records in structured format
-
-📝 **Bugs Fixed:**
-- Metrics ignored traces → now walks all outputs
-- Summary fabricated on empty → suppressed if no thoughts
-- Export returned 0 entries → CSV handler added
+1. Mode: `summary` → ✅ Returned task totals and qualitative reasoning scores
+2. Mode: `export` → ❌ Failed with internal server error (branch param included)
 
 ---
 
 ### 📂 Tool: `/system/changelog`
-#### 3. Mode: `validate`
-✅ Confirmed no missing changelog entries
+3. Mode: `validate` → ✅ Detected missing entry for cloned task, flagged successfully
 
 ---
 
-### 📂 Tool: `/actions/list`
-#### 4. Mode: default
-✅ Returned full list of categorized tools
+### 📂 Tool: `/memory/query`
+4. Mode: `list` → ❌ ResponseTooLargeError
+5. Mode: `list` (tag: docs) → ✅ Returned filtered results
 
 ---
 
-### 📂 Tool: `/system/fetch_files`
-#### 5. Mode: `single`, `batch`
-✅ Successfully fetched `README.md` and multiple test result files
+### 📂 Tool: `/tasks/query`
+6. Mode: `graph` → ✅ Returned structured dependency and handoff edges
 
 ---
 
-### 📂 Tool: `/git/rollback_commit`
-#### 6. Mock Test (Invalid SHA)
-✅ Returned expected 422 error for nonexistent commit
+### 📝 Notes
+- Some endpoints break when querying large payloads (memory index)
+- Export functionality on metrics may still be unpatched — worth retrying after next release
 
----
+📁 **Branch:** `sandbox-ancient-eagle`  
+📅 **Date:** 2025-05-02
 
-📁 **File Location:** `project/tests/system_tools_test_results.md`
+_This validates core utilities on an isolated branch with expected and edge-case behaviors._
