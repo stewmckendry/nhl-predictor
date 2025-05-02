@@ -2887,3 +2887,14 @@
   - output
   last_updated: '2025-05-02'
   pod_owner: QAPod
+- path: project/outputs/test_task_lifecycle-4d7a07/handoff_notes.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/sandbox-ancient-eagle/project/outputs/test_task_lifecycle-4d7a07/handoff_notes.yaml
+  file_type: yaml
+  description: Details of a handoff process between pods, including timestamp, involved
+    pods, and guidelines for continuation.
+  tags:
+  - handoff
+  - process
+  - async
+  last_updated: '2025-05-02'
+  pod_owner: DeliveryPod
