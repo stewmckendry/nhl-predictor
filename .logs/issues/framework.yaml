@@ -151,3 +151,17 @@
   - enhancement
   status: open
   timestamp: '2025-05-02T11:09:16.427686'
+- type: enhancement
+  scope: framework
+  issue_id: baf2201f-44c7-4e0a-9a1c-8257bd5b07b6
+  task_id: null
+  title: Memory add should return clear error if file is not in GitHub
+  detail: Currently /memory/manage with action=add silently fails if the file does
+    not exist in GitHub. Enhancement would return a clear error message to users.
+  suggested_fix: null
+  tags:
+  - memory
+  - add
+  - enhancement
+  status: open
+  timestamp: '2025-05-02T11:09:24.842000'
