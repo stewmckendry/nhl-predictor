@@ -42,4 +42,4 @@ This is a readme file for the project. It provides an overview of the API routes
 []: # You’re about to explore an AI-native delivery system backed by Git + reasoning.
 []: # 
 []: # ### 🔧 Setup Steps
-[]: # 1. Fork the base repo: [ai-delivery-framework](
+[]: # 1. Fork the base repo: [ai-delivery-framework]
