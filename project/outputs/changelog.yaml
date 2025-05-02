@@ -473,3 +473,8 @@
   task_id: test_task_lifecycle-eb3424
   committed_by: QAPod
   message: Create new task test_task_lifecycle-eb3424 from template test_task_lifecycle
+- timestamp: '2025-05-02T10:42:57.660661'
+  path: project/task.yaml
+  task_id: test_task_lifecycle-eb3424
+  committed_by: unknown
+  message: Planned tasks ['test_task_lifecycle-eb3424']
