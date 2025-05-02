@@ -46,3 +46,18 @@
   - id-generation
   status: closed
   timestamp: '2025-05-02T10:42:42.586228'
+- type: bug
+  scope: framework
+  issue_id: f4364dd9-727b-4985-a0a8-f9436de137b1
+  task_id: null
+  title: Reopen task fails if pod_owner not passed
+  detail: 'Calling /tasks/lifecycle with action=reopen on a completed task failed
+    with error ''detail: pod_owner''. This occurred even though pod_owner was set
+    during task creation. Patch now uses default pod_owner if not explicitly passed.'
+  suggested_fix: Apply default pod_owner on reopen if not explicitly passed. Fix deployed.
+  tags:
+  - task
+  - reopen
+  - lifecycle
+  status: closed
+  timestamp: '2025-05-02T10:51:05.104570'
