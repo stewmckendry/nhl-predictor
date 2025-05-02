@@ -698,12 +698,12 @@ tasks:
     created_at: '2025-05-02T10:42:50.257515'
     description: Lifecycle test task for validating core task flow
     done: false
-    inputs:
+    inputs: &id001
     - phase
     - task_key
     - assigned_pod
     instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
-    outputs:
+    outputs: &id002
     - output file
     - reasoning_trace
     pod_owner: GPTPod
@@ -712,3 +712,17 @@ tasks:
     ready: true
     status: in_progress
     updated_at: '2025-05-02T10:58:14.090750'
+  test_task_lifecycle-eb3424_clone_Clone for fork/scale validation:
+    assigned_pod: QAPod
+    created_at: '2025-05-02T10:58:19.094458'
+    description: Lifecycle test task for validating core task flow
+    done: false
+    inputs: *id001
+    instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
+    outputs: *id002
+    pod_owner: GPTPod
+    prompt: Test prompt lifecycle coverage
+    prompt_used: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
+    ready: true
+    status: backlog
+    updated_at: '2025-05-02T10:58:19.094458'
