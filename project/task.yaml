@@ -733,5 +733,6 @@ tasks:
     instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
     pod_owner: QAPod
     prompt: framework/task_templates/QA/test_task_lifecycle/prompt_template.md
-    status: planned
-    updated_at: null
+    status: in_progress
+    updated_at: '2025-05-02T18:50:32.465860'
+    prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
