@@ -2921,3 +2921,13 @@
   - AI
   last_updated: '2025-05-02'
   pod_owner: ResearchPod
+- path: result
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/sandbox-ancient-eagle/result
+  file_type: unknown
+  description: Placeholder entry for backfilled data in the repository
+  tags:
+  - placeholder
+  - backfill
+  - entry
+  last_updated: '2025-05-02'
+  pod_owner: null
