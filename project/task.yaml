@@ -698,7 +698,8 @@ tasks:
     created_at: '2025-05-02T10:42:50.257515'
     done: true
     instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
+    pod_owner: GPTPod
     prompt: framework/task_templates/qa/test_task_lifecycle/prompt_template.md
     prompt_used: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
-    status: completed
-    updated_at: '2025-05-02T10:43:15.815748'
+    status: in_progress
+    updated_at: '2025-05-02T10:54:29.051231'
