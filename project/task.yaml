@@ -732,13 +732,26 @@ tasks:
     created_at: '2025-05-02T18:50:22.073998'
     description: Updated test description
     done: true
-    inputs:
+    inputs: &id003
     - sample
     instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
-    outputs:
+    outputs: &id004
     - result
     pod_owner: QAPod
     prompt: Test lifecycle operations
     prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
     status: in_progress
     updated_at: '2025-05-02T18:51:23.825194'
+  test_task_lifecycle-4d7a07_clone_Clone for fork/scale validation:
+    assigned_pod: QAPod
+    created_at: '2025-05-02T18:51:28.831565'
+    description: Updated test description
+    done: true
+    inputs: *id003
+    instance_of: framework/task_templates/QA/test_task_lifecycle/task.yaml
+    outputs: *id004
+    pod_owner: QAPod
+    prompt: Test lifecycle operations
+    prompt_used: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
+    status: backlog
+    updated_at: '2025-05-02T18:51:28.831565'
