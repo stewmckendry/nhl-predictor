@@ -30,3 +30,19 @@
   - indexing
   status: closed
   timestamp: '2025-05-02T04:22:50.591529'
+- type: bug
+  scope: framework
+  issue_id: 9f6fd23d-32eb-488f-bf99-cb04a749eebc
+  task_id: null
+  title: Missing task_id when creating new task
+  detail: When using /tasks/lifecycle with action=create, the returned payload did
+    not include a task_id if none was explicitly passed. This prevented follow-on
+    lifecycle actions. Issue fixed by generating an ID if not provided.
+  suggested_fix: Auto-generate a task_id if none is passed during create. Patch now
+    ensures task_id is returned.
+  tags:
+  - task
+  - lifecycle
+  - id-generation
+  status: closed
+  timestamp: '2025-05-02T10:42:42.586228'
