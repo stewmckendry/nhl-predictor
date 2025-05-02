@@ -297,3 +297,25 @@
   - sandbox
   status: open
   timestamp: '2025-05-02T19:08:15.306388'
+- type: bug
+  scope: framework
+  issue_id: 25a45ce1-f727-4ad1-8f97-807f87f24013
+  task_id: null
+  title: ResponseTooLargeError when querying full memory index
+  detail: 'Calling `/memory/query` in `list` mode without filters results in a ResponseTooLargeError,
+    blocking validation of full memory indexing.
+
+
+    Regression issue likely caused by repo growth or unbounded default response size.'
+  suggested_fix: '1. Add pagination or truncation to response
+
+    2. Default to count + fetch pattern
+
+    3. Allow optional filtering by tag, path, or pod to limit scope'
+  tags:
+  - memory
+  - query
+  - pagination
+  - response-size
+  status: open
+  timestamp: '2025-05-02T19:08:24.366692'
