@@ -76,3 +76,18 @@
   - lifecycle
   status: closed
   timestamp: '2025-05-02T11:06:22.459564'
+- type: bug
+  scope: framework
+  issue_id: b835a486-8e5c-44d8-ad01-2893e1c89f7c
+  task_id: null
+  title: Missing task_id in task creation
+  detail: Calling /tasks/lifecycle with action=create did not return a task_id if
+    one wasn't passed, blocking downstream calls. Fixed by patch that generates and
+    returns task_id when not supplied.
+  suggested_fix: Auto-generate and return task_id if not explicitly passed.
+  tags:
+  - task
+  - create
+  - lifecycle
+  status: closed
+  timestamp: '2025-05-02T11:06:27.335212'
