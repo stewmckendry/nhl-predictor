@@ -213,3 +213,41 @@
   - bug
   status: closed
   timestamp: '2025-05-02T11:33:35.249871'
+- type: bug
+  scope: framework
+  issue_id: a2e8c26a-19da-4865-b8c5-2adcbf602ac4
+  task_id: null
+  title: Tool invocation failed for /sandbox/init_branch due to outdated schema and
+    ambiguous naming
+  detail: 'Initial attempts to call /sandbox/init_branch failed with ''InvalidRecipient''
+    despite being listed in the catalog. Likely causes include:
+
+    - Schema for QAPod was outdated until refreshed and updated.
+
+    - The presence of similarly named tools like /project/init_project and tool errors
+    misled the diagnosis.
+
+    - Tool path was listed but lacked an invocable identifier, preventing actual calls.
+
+
+    After updating schema and enabling ''initSandboxBranch'', the tool worked.
+
+
+    This can block users from testing sandbox features and should be fixed with clearer
+    naming, consistent callable names, and schema auto-refresh or error hints.'
+  suggested_fix: '1. Ensure all tools listed in the catalog are invocable.
+
+    2. Add schema auto-refresh or hint users to refresh after backend changes.
+
+    3. Use consistent naming patterns for tool identifiers vs. paths (e.g., initSandboxBranch
+    for /sandbox/init_branch).
+
+    4. Consider aliasing common endpoint patterns to prevent confusion (e.g., ''sandbox/init''
+    as alias to ''initSandboxBranch'').'
+  tags:
+  - tooling
+  - sandbox
+  - usability
+  - schema-refresh
+  status: open
+  timestamp: '2025-05-02T18:32:45.604519'
