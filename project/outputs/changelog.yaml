@@ -1,25 +1,5 @@
-- timestamp: '2025-05-02T10:43:03.139810'
-  path: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
-  task_id: test_task_lifecycle-eb3424
-  committed_by: GPTPod
-  message: Log prompt used for task test_task_lifecycle-eb3424
-- timestamp: '2025-05-02T10:43:06.572464'
-  path: project/task.yaml
+- timestamp: '2025-05-02T10:43:26.454153'
+  path: project/outputs/test_task_lifecycle-eb3424/handoff_notes.yaml
   task_id: test_task_lifecycle-eb3424
   committed_by: unknown
-  message: Start task test_task_lifecycle-eb3424
-- timestamp: '2025-05-02T10:43:16.458500'
-  path: project/tests/test_lifecycle_output.txt
-  task_id: test_task_lifecycle-eb3424
-  committed_by: unknown
-  message: Save output for test_task_lifecycle-eb3424
-- timestamp: '2025-05-02T10:43:19.659682'
-  path: project/task.yaml
-  task_id: test_task_lifecycle-eb3424
-  committed_by: unknown
-  message: Mark task test_task_lifecycle-eb3424 as completed and update outputs
-- timestamp: '2025-05-02T10:43:22.583800'
-  path: project/outputs/test_task_lifecycle-eb3424/reasoning_trace.yaml
-  task_id: test_task_lifecycle-eb3424
-  committed_by: unknown
-  message: Log reasoning trace for test_task_lifecycle-eb3424
+  message: Log handoff note for test_task_lifecycle-eb3424
