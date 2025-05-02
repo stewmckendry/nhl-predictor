@@ -398,3 +398,8 @@
   task_id: memory_index
   committed_by: memory_indexer
   message: Indexed 235 memory entries
+- timestamp: '2025-05-02T04:17:41.074304'
+  path: .logs/issues/framework.yaml
+  task_id: null
+  committed_by: GPTPod
+  message: Log <class 'type'> in framework scope
