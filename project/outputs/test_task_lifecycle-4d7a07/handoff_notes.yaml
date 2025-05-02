@@ -1,0 +1,11 @@
+handoffs:
+- timestamp: '2025-05-02T18:50:54.196144'
+  from_pod: QAPod
+  to_pod: <replace with who the next pod is, or ask the human to confirm>
+  reason: Auto-generated handoff on task completion.
+  token_count: 0
+  next_prompt: 'Follow up based on task: '
+  reference_files:
+  - project/outputs/test_task_lifecycle-4d7a07/
+  notes: ''
+  ways_of_working: Continue using async updates and reasoning logs.
