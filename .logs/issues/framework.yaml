@@ -6,12 +6,13 @@
   detail: When using /memory/manage with action=add, the tool returns 200 OK even
     if the target file does not exist in GitHub, leading to downstream failures (update/remove
     fail due to missing entry).
-  suggested_fix: null
+  suggested_fix: Ensure /memory/manage validates file exists on GitHub before returning
+    200 OK; fixed by enforcing file check + improved error message.
   tags:
   - memory
   - validation
   - error-handling
-  status: open
+  status: closed
   timestamp: '2025-05-02T04:22:44.695866'
 - type: bug
   scope: framework
