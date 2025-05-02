@@ -1,0 +1,1 @@
+Begin lifecycle test task for validation of start → complete → reopen flow
