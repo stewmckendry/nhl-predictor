@@ -295,7 +295,7 @@
   - export
   - regression
   - sandbox
-  status: open
+  status: closed
   timestamp: '2025-05-02T19:08:15.306388'
 - type: bug
   scope: framework
