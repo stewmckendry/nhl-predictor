@@ -2422,13 +2422,14 @@
 - path: project/.gitkeep
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/.gitkeep
   file_type: gitkeep
-  description: Placeholder file to ensure the directory is tracked by Git
+  description: Placeholder file to ensure the presence of the project directory in
+    version control
   tags:
   - git
   - repository
-  - version control
+  - version-control
   last_updated: '2025-05-02'
-  pod_owner: null
+  pod_owner: DevPod
 - path: project/__init__.py
   raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/__init__.py
   file_type: py
@@ -2739,3 +2740,128 @@
   - task
   last_updated: '2025-05-02'
   pod_owner: DevPod
+- path: README.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/sandbox-ancient-eagle/README.md
+  file_type: md
+  description: Documentation providing an overview of API routes, their functionalities,
+    and security considerations for an AI-native delivery system.
+  tags:
+  - api
+  - documentation
+  - security
+  - integration
+  last_updated: '2025-05-02'
+  pod_owner: DeliveryPod
+- path: project/outputs/reports/metrics_report_20250502_111029.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/reports/metrics_report_20250502_111029.yaml
+  file_type: yaml
+  description: Metrics report detailing quantitative and qualitative analysis of AI
+    task performance, including completion rates, reasoning themes, and insights on
+    AI reasoning quality.
+  tags:
+  - metrics
+  - analysis
+  - AI performance
+  last_updated: '2025-05-02'
+  pod_owner: ResearchPod
+- path: project/outputs/reports/metrics_report_20250502_112602.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/reports/metrics_report_20250502_112602.yaml
+  file_type: yaml
+  description: Metrics report detailing quantitative and qualitative performance of
+    AI tasks, including completion rates, thought quality, and reasoning insights.
+  tags:
+  - metrics
+  - report
+  - performance
+  - AI
+  last_updated: '2025-05-02'
+  pod_owner: ResearchPod
+- path: project/outputs/test_task_lifecycle-eb3424/chain_of_thought.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/test_task_lifecycle-eb3424/chain_of_thought.yaml
+  file_type: yaml
+  description: Log entries detailing validation of task lifecycle actions and handoff
+    tools.
+  tags:
+  - validation
+  - handoff
+  - chain_of_thought
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/outputs/test_task_lifecycle-eb3424/handoff_notes.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/test_task_lifecycle-eb3424/handoff_notes.yaml
+  file_type: yaml
+  description: Document detailing the handoff process between pods during task lifecycle,
+    including timestamps, reasons, and next steps.
+  tags:
+  - handoff
+  - task
+  - flow
+  last_updated: '2025-05-02'
+  pod_owner: DeliveryPod
+- path: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
+  file_type: txt
+  description: Document outlining the lifecycle test task for validating a specific
+    workflow
+  tags:
+  - test
+  - lifecycle
+  - flow
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/outputs/test_task_lifecycle-eb3424/reasoning_trace.yaml
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/outputs/test_task_lifecycle-eb3424/reasoning_trace.yaml
+  file_type: yaml
+  description: Reasoning trace for lifecycle task testing, including improvement opportunities
+    and thought quality scoring.
+  tags:
+  - qa
+  - test
+  - lifecycle
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/tests/memory_tools_test_results.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/memory_tools_test_results.md
+  file_type: md
+  description: Document summarizing test scenarios and outcomes for memory management
+    tools in the nhl-predictor repository, including issues found and fixes applied.
+  tags:
+  - memory
+  - testing
+  - qa
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/tests/system_tools_test_results.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/system_tools_test_results.md
+  file_type: md
+  description: Summary of test results for system and utility tools, including metrics,
+    changelog, fetch, rollback, and action discovery endpoints.
+  tags:
+  - test
+  - system
+  - utility
+  - qa
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/tests/task_lifecycle_test_results.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/task_lifecycle_test_results.md
+  file_type: md
+  description: Summary of test results for task lifecycle and reflection tools in
+    the nhl-predictor repository.
+  tags:
+  - qa
+  - lifecycle
+  - tools
+  - validation
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
+- path: project/tests/test_lifecycle_output.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/project/tests/test_lifecycle_output.txt
+  file_type: txt
+  description: Output from lifecycle tests conducted by the QA team.
+  tags:
+  - test
+  - lifecycle
+  - output
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
