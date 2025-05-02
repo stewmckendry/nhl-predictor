@@ -169,3 +169,8 @@
   task_id: system-tools-regression
   committed_by: QAPod
   message: Append output file to system-tools-regression
+- timestamp: '2025-05-02T19:08:15.320000'
+  path: .logs/issues/framework.yaml
+  task_id: null
+  committed_by: GPTPod
+  message: Log <class 'type'> in framework scope
