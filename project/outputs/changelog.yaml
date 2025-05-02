@@ -463,3 +463,8 @@
   task_id: null
   committed_by: QAPod
   message: Create new task None from template test_task_lifecycle
+- timestamp: '2025-05-02T10:42:42.977613'
+  path: .logs/issues/framework.yaml
+  task_id: null
+  committed_by: GPTPod
+  message: Log <class 'type'> in framework scope
