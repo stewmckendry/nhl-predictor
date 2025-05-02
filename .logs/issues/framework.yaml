@@ -136,3 +136,18 @@
   - enhancement
   status: open
   timestamp: '2025-05-02T11:07:40.820482'
+- type: enhancement
+  scope: framework
+  issue_id: 9c67acd2-cb46-4448-9018-cab0cbc2dfe2
+  task_id: null
+  title: Index memory should visibly run in background
+  detail: Memory indexing currently runs in the background, but user feedback does
+    not indicate it's async. Recommend exposing status or flag to reflect when indexing
+    is complete.
+  suggested_fix: null
+  tags:
+  - memory
+  - index
+  - enhancement
+  status: open
+  timestamp: '2025-05-02T11:09:16.427686'
