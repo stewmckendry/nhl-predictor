@@ -165,3 +165,19 @@
   - enhancement
   status: open
   timestamp: '2025-05-02T11:09:24.842000'
+- type: bug
+  scope: framework
+  issue_id: b5ca0bd6-f7fd-4b40-9b1c-b1e91d241edc
+  task_id: null
+  title: Reasoning metrics returns 0 for scores despite data
+  detail: Metrics summary (qualitative) showed 0 recall and novelty rate, and null
+    thought quality, even though reasoning_trace.yaml had valid scores. Fixed by scanning
+    all task output folders for traces.
+  suggested_fix: Patch now recursively walks project/outputs/* folders to collect
+    all reasoning traces.
+  tags:
+  - metrics
+  - reasoning
+  - bug
+  status: closed
+  timestamp: '2025-05-02T11:25:27.890180'
