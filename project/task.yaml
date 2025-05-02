@@ -1,3 +1,5 @@
+outputs:
+- project/tests/test_lifecycle_output.txt
 tasks:
   0.1_update_task_metadata:
     assigned_to: unassigned
@@ -694,9 +696,9 @@ tasks:
   test_task_lifecycle-eb3424:
     assigned_pod: QAPod
     created_at: '2025-05-02T10:42:50.257515'
-    done: false
+    done: true
     instance_of: framework/task_templates/qa/test_task_lifecycle/task.yaml
     prompt: framework/task_templates/qa/test_task_lifecycle/prompt_template.md
-    status: in_progress
-    updated_at: '2025-05-02T10:43:02.871669'
     prompt_used: project/outputs/test_task_lifecycle-eb3424/prompt_used.txt
+    status: completed
+    updated_at: '2025-05-02T10:43:15.815748'
