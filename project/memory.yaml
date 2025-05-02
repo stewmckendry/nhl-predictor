@@ -2727,3 +2727,15 @@
   - playoffs
   last_updated: '2025-05-02'
   pod_owner: QAPod
+- path: README.md
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/main/README.md
+  file_type: md
+  description: Overview of API routes and functionalities, including examples, future
+    enhancements, and security considerations for an AI-native delivery system.
+  tags:
+  - api
+  - documentation
+  - security
+  - integration
+  last_updated: '2025-05-02'
+  pod_owner: DeliveryPod
