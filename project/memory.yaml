@@ -2865,3 +2865,14 @@
   - output
   last_updated: '2025-05-02'
   pod_owner: QAPod
+- path: project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
+  raw_url: https://raw.githubusercontent.com/stewmckendry/nhl-predictor/sandbox-ancient-eagle/project/outputs/test_task_lifecycle-4d7a07/prompt_used.txt
+  file_type: txt
+  description: Document detailing the steps in a task lifecycle test flow
+  tags:
+  - test
+  - lifecycle
+  - flow
+  - prompt
+  last_updated: '2025-05-02'
+  pod_owner: QAPod
